@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akoya and the Lost Pearl | Jose Montenegro</title>
+  <meta name="description" content="A mermaid magical girl Metroidvania - 7th place out of 80 jam entries. Built in Godot 4.2 with FMOD audio and a custom water shader." />
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="../../index.html" class="nav__logo">Jose Montenegro</a>
+      <ul class="nav__links" role="list">
+        <li><a href="../../index.html#experience">Experience</a></li>
+        <li><a href="../../index.html#projects">Projects</a></li>
+        <li><a href="../../index.html#about">About</a></li>
+        <li><a href="../../index.html#contact">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main">
+    <div class="detail-hero">
+      <div class="container">
+        <nav class="detail-hero__breadcrumb" aria-label="Breadcrumb">
+          <a href="../../index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <a href="../../projects/">Projects</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Akoya and the Lost Pearl</span>
+        </nav>
+        <div class="detail-hero__tags">
+          <span class="tag tag--jam">7th out of 80</span>
+          <span class="tag tag--status-proto">Prototype</span>
+          <span class="tag">2D Metroidvania</span>
+          <span class="tag">Windows &middot; macOS</span>
+        </div>
+        <h1 class="detail-hero__title">Akoya and the Lost Pearl</h1>
+        <p class="detail-hero__tagline">A mermaid magical girl Metroidvania. 7th place out of 80 jam entries.</p>
+        <div class="detail-hero__jam" role="note">
+          <span aria-hidden="true">&#9733;</span>
+          Metroidvania Month Jam 31 - 7th out of 80 entries
+        </div>
+        <div class="detail-hero__links">
+          <a href="https://miraclejester.itch.io/akoya-and-the-magical-pearl" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Play on itch.io</a>
+          <a href="https://github.com/miraclejester/mvm-31" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container detail-layout">
+      <div class="detail-main">
+
+        <div class="detail-hero-img">
+          <img src="../../../projects/akoya-and-the-lost-pearl/media/hero.png" alt="Akoya and the Lost Pearl: mermaid protagonist navigating the beach" />
+        </div>
+
+        <section class="screenshots-section" aria-label="Screenshots">
+          <h3>Screenshots</h3>
+          <div class="screenshots-grid">
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View screenshot 1 full size">
+              <img src="../../../projects/akoya-and-the-lost-pearl/media/screenshot-1.jpeg" alt="Akoya and the Lost Pearl: screenshot 1" loading="lazy" />
+            </div>
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View screenshot 2 full size">
+              <img src="../../../projects/akoya-and-the-lost-pearl/media/screenshot-2.jpeg" alt="Akoya and the Lost Pearl: screenshot 2" loading="lazy" />
+            </div>
+          </div>
+        </section>
+
+        <section class="detail-description">
+          <h3>About the Project</h3>
+          <p>Akoya is a mermaid who transforms between land and sea forms to navigate a sunlit beach and its dark underwater caves. Built in a month for Metroidvania Month Jam 31 (theme: Magical Girls), it placed 7th out of 80 entries.</p>
+          <p>I handled all programming and level design for a four-person team, architecting the state machine, FMOD audio integration, a custom water shader, and the dual-environment movement system that makes the transformation feel mechanically distinct rather than cosmetic.</p>
+        </section>
+
+        <section class="detail-highlights">
+          <h3>Technical Highlights</h3>
+          <ul>
+            <li>Node-based state machine used across the player character, all enemies, and interactables. New behaviors could be added mid-jam without touching unrelated code</li>
+            <li>Dual-environment movement: grounded combat mode and six-directional swim mode, each with separate physics, animation states, and hitbox behavior</li>
+            <li>FMOD integration via the Godot FMOD extension, with real-time crossfading between above-water and underwater soundscapes</li>
+            <li>Custom GLSL water shader</li>
+            <li>Level maps initially authored in Tiled, then migrated to Godot's native tilemap editor mid-project for better tooling in the final design stretch</li>
+          </ul>
+        </section>
+
+        <section class="detail-features">
+          <h3>Features</h3>
+          <ul>
+            <li>Transform into a mermaid to swim underwater</li>
+            <li>Fight against crabs, bats, and an evil mermaid</li>
+            <li>Explore a gorgeous beach and dark caves</li>
+          </ul>
+        </section>
+
+        <section class="detail-learned">
+          <h3>What I Learned</h3>
+          <p>Keeping state machine transitions explicit and data-driven paid off immediately when a new enemy type was needed two days before the deadline. FMOD is powerful but its Godot support was limited enough to block a web build entirely, which is worth factoring in early. Mid-jam tool migrations are a real risk: the Tiled-to-Godot switch was the right long-term call, but it should be a deliberate day-one task rather than absorbed as scope creep. The water shader was a first step into GLSL as there is more to build on there.</p>
+        </section>
+
+      </div>
+
+      <aside class="detail-sidebar" aria-label="Project details">
+        <div class="sidebar-card">
+          <h4>Project Info</h4>
+          <dl class="sidebar-meta">
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Released</dt>
+              <dd class="sidebar-meta__value">March 2026</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Status</dt>
+              <dd class="sidebar-meta__value">Prototype</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Genre</dt>
+              <dd class="sidebar-meta__value">2D Metroidvania</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Platforms</dt>
+              <dd class="sidebar-meta__value">Windows, macOS</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Team</dt>
+              <dd class="sidebar-meta__value">4 people (small team)</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Role</dt>
+              <dd class="sidebar-meta__value">Programmer, Level Design</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Jam Result</h4>
+          <div class="jam-strip">
+            <span class="jam-strip__label">Jam Entry</span>
+            <span class="jam-strip__name">Metroidvania Month Jam 31</span>
+            <span class="jam-strip__placement">&#9733; 7th out of 80 entries</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Tech Stack</h4>
+          <div class="sidebar-stack">
+            <span class="tag tag--accent">Godot 4.2</span>
+            <span class="tag">GDScript</span>
+            <span class="tag">FMOD</span>
+            <span class="tag">Godot FMOD Extension</span>
+            <span class="tag">Tiled</span>
+            <span class="tag">Git</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Credits</h4>
+          <ul class="credits-list">
+            <li class="credit-item">
+              <span class="credit-item__name">Jose Montenegro</span>
+              <span class="credit-item__role">Programmer, Level Design</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name">Tandapata</span>
+              <span class="credit-item__role">Sound Designer</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name">painresidual</span>
+              <span class="credit-item__role">Composer</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name">Mytho_Condria</span>
+              <span class="credit-item__role">Artist, Animator</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Links</h4>
+          <div class="sidebar-links">
+            <a href="https://miraclejester.itch.io/akoya-and-the-magical-pearl" class="sidebar-link" target="_blank" rel="noopener noreferrer">Play on itch.io</a>
+            <a href="https://github.com/miraclejester/mvm-31" class="sidebar-link" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button id="lightbox-close" class="lightbox__close" aria-label="Close image viewer">&times;</button>
+    <div class="lightbox__img-wrap">
+      <img id="lightbox-img" alt="" />
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__copy">
+        <p>&copy; Jose Montenegro</p>
+        <p>Built and designed by Jose Montenegro.</p>
+      </div>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="https://github.com/miraclejester" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://miraclejester.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../../js/main.js"></script>
+</body>
+</html>

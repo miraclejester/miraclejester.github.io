@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dragon Warrior NES Clone | Jose Montenegro</title>
+  <meta name="description" content="A faithful 1-to-1 clone of Dragon Warrior I for the NES built in Godot 4, featuring an MVC battle architecture and 8-bit era shaders." />
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="../../index.html" class="nav__logo">Jose Montenegro</a>
+      <ul class="nav__links" role="list">
+        <li><a href="../../index.html#experience">Experience</a></li>
+        <li><a href="../../index.html#projects">Projects</a></li>
+        <li><a href="../../index.html#about">About</a></li>
+        <li><a href="../../index.html#contact">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main">
+    <div class="detail-hero">
+      <div class="container">
+        <nav class="detail-hero__breadcrumb" aria-label="Breadcrumb">
+          <a href="../../index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <a href="../../projects/">Projects</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Dragon Warrior NES Clone</span>
+        </nav>
+        <div class="detail-hero__tags">
+          <span class="tag tag--status-release">Released</span>
+          <span class="tag">Turn-based JRPG</span>
+          <span class="tag">Web</span>
+        </div>
+        <h1 class="detail-hero__title">Dragon Warrior NES Clone</h1>
+        <p class="detail-hero__tagline">A faithful 1-to-1 clone of Dragon Warrior I for the NES, built in Godot for fun and practice.</p>
+        <div class="detail-hero__links">
+          <a href="https://miraclejester.itch.io/dragon-warrior-nes-clone" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Play on itch.io</a>
+          <a href="https://github.com/miraclejester/clones-dq1" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container detail-layout">
+      <div class="detail-main">
+
+        <div class="detail-hero-img">
+          <img src="../../../projects/dragon-warrior-nes-clone/media/hero.png" alt="Dragon Warrior NES Clone: overworld view" />
+        </div>
+
+        <section class="screenshots-section" aria-label="Screenshots">
+          <h3>Screenshots</h3>
+          <div class="screenshots-grid">
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View screenshot 1 full size">
+              <img src="../../../projects/dragon-warrior-nes-clone/media/s1.png" alt="Dragon Warrior NES Clone: screenshot 1" loading="lazy" />
+            </div>
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View screenshot 2 full size">
+              <img src="../../../projects/dragon-warrior-nes-clone/media/s2.png" alt="Dragon Warrior NES Clone: screenshot 2" loading="lazy" />
+            </div>
+          </div>
+        </section>
+
+        <section class="detail-description">
+          <h3>About the Project</h3>
+          <p>A near-complete recreation of Dragon Warrior I (Dragon Quest in Japan) built solo in Godot 4 over roughly a month. The only addition beyond the original is a debug menu with cheats and skips for development convenience.</p>
+          <p>The focus was on faithful reproduction: the turn-based battle system, overworld navigation, shop and inn interactions, save files, and the 8-bit visual effects (fade transitions, UI flicker) that define the NES era aesthetic. Playable directly in the browser with no download required.</p>
+        </section>
+
+        <section class="detail-highlights">
+          <h3>Technical Highlights</h3>
+          <ul>
+            <li>Battle system built on an MVC architecture. View updates the model through controller commands and the model returns a list of battle events for the view to consume. Designed to scale to more complex turn-based systems or a client-server setup</li>
+            <li>8-bit era shaders and UI effects: full-screen fadeout, text rendering, and period-accurate visual behavior</li>
+            <li>Progress saving on WebGL via browser local storage</li>
+            <li>Debug menu with cheats and skips not present in the original</li>
+          </ul>
+        </section>
+
+        <section class="detail-features">
+          <h3>Features</h3>
+          <ul>
+            <li>Full recreation of overworld, towns, dungeons, shops, inns, and the complete quest structure</li>
+          </ul>
+        </section>
+
+        <section class="detail-learned">
+          <h3>What I Learned</h3>
+          <p>The MVC pattern for turn-based systems was the key engineering insight here: the view sends commands to the controller, the controller updates the model, and the model emits a flat list of battle events for the view to replay in sequence. This decoupling makes the system straightforward to extend and naturally supports a client-server split if needed. Writing 8-bit era shaders and UI code was a satisfying exercise in deliberate platform constraints.</p>
+        </section>
+
+      </div>
+
+      <aside class="detail-sidebar" aria-label="Project details">
+        <div class="sidebar-card">
+          <h4>Project Info</h4>
+          <dl class="sidebar-meta">
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Released</dt>
+              <dd class="sidebar-meta__value">April 2025</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Status</dt>
+              <dd class="sidebar-meta__value">Released</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Genre</dt>
+              <dd class="sidebar-meta__value">Turn-based JRPG</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Platforms</dt>
+              <dd class="sidebar-meta__value">Web</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Team</dt>
+              <dd class="sidebar-meta__value">Solo</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Role</dt>
+              <dd class="sidebar-meta__value">Sole Developer</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Tech Stack</h4>
+          <div class="sidebar-stack">
+            <span class="tag tag--accent">Godot 4</span>
+            <span class="tag">GDScript</span>
+            <span class="tag">Git</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Credits</h4>
+          <ul class="credits-list">
+            <li class="credit-item">
+              <span class="credit-item__name">Jose Montenegro</span>
+              <span class="credit-item__role">Sole Developer</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Links</h4>
+          <div class="sidebar-links">
+            <a href="https://miraclejester.itch.io/dragon-warrior-nes-clone" class="sidebar-link" target="_blank" rel="noopener noreferrer">Play on itch.io</a>
+            <a href="https://github.com/miraclejester/clones-dq1" class="sidebar-link" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button id="lightbox-close" class="lightbox__close" aria-label="Close image viewer">&times;</button>
+    <div class="lightbox__img-wrap">
+      <img id="lightbox-img" alt="" />
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__copy">
+        <p>&copy; Jose Montenegro</p>
+        <p>Built and designed by Jose Montenegro.</p>
+      </div>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="https://github.com/miraclejester" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://miraclejester.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../../js/main.js"></script>
+</body>
+</html>

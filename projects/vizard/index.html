@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VIZARD | Jose Montenegro</title>
+  <meta name="description" content="A hacker-themed mystery game - uncover a company's secrets through a Linux-style terminal. Built for Global Game Jam 2026, in active post-jam development." />
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="../../index.html" class="nav__logo">Jose Montenegro</a>
+      <ul class="nav__links" role="list">
+        <li><a href="../../index.html#experience">Experience</a></li>
+        <li><a href="../../index.html#projects">Projects</a></li>
+        <li><a href="../../index.html#about">About</a></li>
+        <li><a href="../../index.html#contact">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main">
+    <div class="detail-hero">
+      <div class="container">
+        <nav class="detail-hero__breadcrumb" aria-label="Breadcrumb">
+          <a href="../../index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <a href="../../projects/">Projects</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">VIZARD</span>
+        </nav>
+        <div class="detail-hero__tags">
+          <span class="tag tag--status-dev">In Development</span>
+          <span class="tag">Mystery / Puzzle</span>
+          <span class="tag">Windows &middot; Web (planned)</span>
+        </div>
+        <h1 class="detail-hero__title">VIZARD</h1>
+        <p class="detail-hero__tagline">A hacker-themed mystery game. Uncover a company's secrets through a Linux-style terminal.</p>
+        <div class="detail-hero__jam" role="note">
+          <span aria-hidden="true">&#9733;</span>
+          Global Game Jam 2026
+        </div>
+        <div class="detail-hero__links">
+          <a href="https://globalgamejam.org/games/2026/vizard-2" class="btn btn--primary" target="_blank" rel="noopener noreferrer">View on GGJ</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container detail-layout">
+      <div class="detail-main">
+
+        <div class="detail-hero-img">
+          <img src="../../../projects/vizard/media/hero.png" alt="VIZARD: hacker terminal interface" />
+        </div>
+
+        <section class="screenshots-section" aria-label="Screenshots">
+          <h3>Screenshots</h3>
+          <div class="screenshots-grid">
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View mission screen full size">
+              <img src="../../../projects/vizard/media/mission.png" alt="VIZARD: mission briefing screen" loading="lazy" />
+            </div>
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View chat interface full size">
+              <img src="../../../projects/vizard/media/chat.png" alt="VIZARD: internal company chat" loading="lazy" />
+            </div>
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View file view full size">
+              <img src="../../../projects/vizard/media/file.png" alt="VIZARD: file system view" loading="lazy" />
+            </div>
+          </div>
+        </section>
+
+        <section class="video-section" aria-label="Videos">
+          <h3>Videos</h3>
+          <div class="video-item">
+            <video controls preload="none" aria-label="VIZARD: cutscene">
+              <source src="../../../projects/vizard/media/cutscene.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="video-item">
+            <video controls preload="none" aria-label="VIZARD: gameplay">
+              <source src="../../../projects/vizard/media/gameplay.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </section>
+
+        <section class="detail-description">
+          <h3>About the Project</h3>
+          <p>VIZARD is a mystery game inspired by S.P.L.I.T. and The Rootrees are Dead. You play a hacker-for-hire tasked with exposing a mysterious company by connecting to employee workstations, reading private files, and piecing together the truth from internal chats and documents.</p>
+          <p>First built in one week for Global Game Jam 2026, the game is now in continued post-jam development. The central interface is a faithful Linux-style console the player uses to navigate the company's network. I served as both lead programmer and primary designer, writing the puzzles and dialogue while building the data-driven architecture that underlies the terminal.</p>
+        </section>
+
+        <section class="detail-highlights">
+          <h3>Technical Highlights</h3>
+          <ul>
+            <li>Data-driven terminal system: console commands, file system, employee profiles, and chat logs are all defined in data - adding new content requires no code changes</li>
+            <li>Localization pipeline using Unity's table system connected to an external Google Sheet for content management</li>
+            <li>Ongoing post-jam development expanding the design and asset management systems</li>
+          </ul>
+        </section>
+
+        <section class="detail-features">
+          <h3>Features</h3>
+          <ul>
+            <li>Faithful simulation of a Linux-style console with many familiar commands</li>
+            <li>Awesome retro aesthetic in a modern world</li>
+            <li>Intriguing story that promises more than what initially seems</li>
+          </ul>
+        </section>
+
+        <section class="detail-learned">
+          <h3>What I Learned</h3>
+          <p>This was the first project where design ownership was the primary creative responsibility. The data-driven architecture meant the terminal could be extended without touching code, which proved valuable when scope grew post-jam. Working on localization via Unity's table and Google Sheet pipeline added a practical production skill that carries into larger projects.</p>
+        </section>
+
+      </div>
+
+      <aside class="detail-sidebar" aria-label="Project details">
+        <div class="sidebar-card">
+          <h4>Project Info</h4>
+          <dl class="sidebar-meta">
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Started</dt>
+              <dd class="sidebar-meta__value">January 2026</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Status</dt>
+              <dd class="sidebar-meta__value">In Development</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Genre</dt>
+              <dd class="sidebar-meta__value">Mystery / Puzzle</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Platforms</dt>
+              <dd class="sidebar-meta__value">Windows, Web (planned)</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Team</dt>
+              <dd class="sidebar-meta__value">4 people (small team)</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Role</dt>
+              <dd class="sidebar-meta__value">Programmer, Main Designer</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Jam</h4>
+          <div class="jam-strip">
+            <span class="jam-strip__label">Jam Entry</span>
+            <span class="jam-strip__name">Global Game Jam 2026</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Tech Stack</h4>
+          <div class="sidebar-stack">
+            <span class="tag tag--accent">Unity</span>
+            <span class="tag">C#</span>
+            <span class="tag">Blender</span>
+            <span class="tag">Git</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Credits</h4>
+          <ul class="credits-list">
+            <li class="credit-item">
+              <span class="credit-item__name">Jose Montenegro</span>
+              <span class="credit-item__role">Programmer, Main Designer</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name">Cristian Medina</span>
+              <span class="credit-item__role">Programmer, Technical Artist</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name">Kenxfive</span>
+              <span class="credit-item__role">Programmer</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name">DeathMetal</span>
+              <span class="credit-item__role">Miscellaneous Support</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Links</h4>
+          <div class="sidebar-links">
+            <a href="https://globalgamejam.org/games/2026/vizard-2" class="sidebar-link" target="_blank" rel="noopener noreferrer">View on Global Game Jam</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button id="lightbox-close" class="lightbox__close" aria-label="Close image viewer">&times;</button>
+    <div class="lightbox__img-wrap">
+      <img id="lightbox-img" alt="" />
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__copy">
+        <p>&copy; Jose Montenegro</p>
+        <p>Built and designed by Jose Montenegro.</p>
+      </div>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="https://github.com/miraclejester" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://miraclejester.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../../js/main.js"></script>
+</body>
+</html>

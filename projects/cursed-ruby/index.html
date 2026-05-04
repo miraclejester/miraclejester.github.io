@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cursed Ruby | Jose Montenegro</title>
+  <meta name="description" content="A Castlevania-flavored Metroidvania built solo - 6th place out of 82 jam entries. Godot 3, featuring unconventional abilities and a reusable state machine architecture." />
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="../../index.html" class="nav__logo">Jose Montenegro</a>
+      <ul class="nav__links" role="list">
+        <li><a href="../../index.html#experience">Experience</a></li>
+        <li><a href="../../index.html#projects">Projects</a></li>
+        <li><a href="../../index.html#about">About</a></li>
+        <li><a href="../../index.html#contact">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main">
+    <div class="detail-hero">
+      <div class="container">
+        <nav class="detail-hero__breadcrumb" aria-label="Breadcrumb">
+          <a href="../../index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <a href="../../projects/">Projects</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Cursed Ruby</span>
+        </nav>
+        <div class="detail-hero__tags">
+          <span class="tag tag--jam">6th out of 82</span>
+          <span class="tag tag--status-release">Released</span>
+          <span class="tag">2D Metroidvania</span>
+          <span class="tag">Windows &middot; WebGL</span>
+        </div>
+        <h1 class="detail-hero__title">Cursed Ruby</h1>
+        <p class="detail-hero__tagline">A Castlevania-flavored Metroidvania built solo. 6th place out of 82 jam entries.</p>
+        <div class="detail-hero__jam" role="note">
+          <span aria-hidden="true">&#9733;</span>
+          Metroidvania Month Jam 17 - 6th out of 82 entries
+        </div>
+        <div class="detail-hero__links">
+          <a href="https://miraclejester.itch.io/cursed-ruby" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Play on itch.io</a>
+          <a href="https://github.com/miraclejester/metroidvaniamonthXVII" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container detail-layout">
+      <div class="detail-main">
+
+        <div class="detail-hero-img">
+          <img src="../../../projects/cursed-ruby/media/hero.png" alt="Cursed Ruby: protagonist Ruby in the gothic castle environment" />
+        </div>
+
+        <section class="screenshots-section" aria-label="Screenshots">
+          <h3>Screenshots</h3>
+          <div class="screenshots-grid">
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View gameplay screenshot full size">
+              <img src="../../../projects/cursed-ruby/media/screenshots/gameplay.png" alt="Cursed Ruby: gameplay screenshot" loading="lazy" />
+            </div>
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View cutscene screenshot full size">
+              <img src="../../../projects/cursed-ruby/media/screenshots/cutscene.png" alt="Cursed Ruby: cutscene screenshot" loading="lazy" />
+            </div>
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View spear ability screenshot full size">
+              <img src="../../../projects/cursed-ruby/media/screenshots/spear.png" alt="Cursed Ruby: wall-sticking spear ability" loading="lazy" />
+            </div>
+          </div>
+        </section>
+
+        <section class="video-section" aria-label="Video">
+          <h3>Video</h3>
+          <div class="video-item">
+            <video controls preload="none" aria-label="Cursed Ruby: air dash ability showcase">
+              <source src="../../../projects/cursed-ruby/media/video/dash.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </section>
+
+        <section class="detail-description">
+          <h3>About the Project</h3>
+          <p>Ruby is cursed and on a deadline. She has weeks to storm her enemy's gothic castle and break the hex before it kills her. Cursed Ruby is a Castlevania-inspired Metroidvania built entirely solo for Metroidvania Month Jam 17, where it placed 6th out of 82 entries.</p>
+          <p>As the sole programmer, I owned every system: movement, enemy AI, progression gating, save state, UI, and audio wiring while coordinating freelance contributors across art, music, SFX, and voice on a jam schedule. The state machine and core systems built here became the direct foundation for Akoya and the Lost Pearl, surviving the transition to Godot 4.</p>
+        </section>
+
+        <section class="detail-highlights">
+          <h3>Technical Highlights</h3>
+          <ul>
+            <li>Reusable state machine and physics architecture carried forward into future projects</li>
+            <li>Tilemap-based level system with ability-gated progression</li>
+            <li>Progression save system</li>
+            <li>WebGL build target alongside Windows</li>
+          </ul>
+        </section>
+
+        <section class="detail-features">
+          <h3>Features</h3>
+          <ul>
+            <li>Castlevania-inspired enemies and environments, courtesy of Ansimuz</li>
+            <li>Wall-sticking spear ability: fires into walls and stays there, becoming a temporary platform that creates puzzle-platformer moments inside an action game</li>
+            <li>Localized air dash: momentum-independent aerial burst that functions as precise repositioning rather than room-crossing flight</li>
+          </ul>
+        </section>
+
+        <section class="detail-learned">
+          <h3>What I Learned</h3>
+          <p>This project is where Godot became a genuine tool rather than an experiment. State machines, physics, 
+            tilemaps and more settled into reusable patterns that survived the engine upgrade to Godot 4.
+            Designing unconventional abilities led to level design challenges where I needed to provide compelling uses
+            as well as making the abilities easy to understand. Moves that felt obvious to me as the programmer were 
+            invisible to fresh players until the environment forced experimentation.</p>
+        </section>
+
+      </div>
+
+      <aside class="detail-sidebar" aria-label="Project details">
+        <div class="sidebar-card">
+          <h4>Project Info</h4>
+          <dl class="sidebar-meta">
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Released</dt>
+              <dd class="sidebar-meta__value">September 2022</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Status</dt>
+              <dd class="sidebar-meta__value">Released</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Genre</dt>
+              <dd class="sidebar-meta__value">2D Metroidvania</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Platforms</dt>
+              <dd class="sidebar-meta__value">Windows, WebGL</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Team</dt>
+              <dd class="sidebar-meta__value">Solo</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Role</dt>
+              <dd class="sidebar-meta__value">Sole Programmer</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Jam Result</h4>
+          <div class="jam-strip">
+            <span class="jam-strip__label">Jam Entry</span>
+            <span class="jam-strip__name">Metroidvania Month Jam 17</span>
+            <span class="jam-strip__placement">&#9733; 6th out of 82 entries</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Tech Stack</h4>
+          <div class="sidebar-stack">
+            <span class="tag tag--accent">Godot 3</span>
+            <span class="tag">GDScript</span>
+            <span class="tag">Aseprite</span>
+            <span class="tag">Git</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Credits</h4>
+          <ul class="credits-list">
+            <li class="credit-item">
+              <span class="credit-item__name">Jose Montenegro</span>
+              <span class="credit-item__role">Sole Programmer</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name">Nyebe</span>
+              <span class="credit-item__role">Title screen, game over, and intro art</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name"><a href="https://ansimuz.itch.io/" target="_blank" rel="noopener noreferrer">Ansimuz</a></span>
+              <span class="credit-item__role">Environment and character sprites</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name"><a href="https://www.gamedevmarket.net/member/stevenmelin/" target="_blank" rel="noopener noreferrer">Steven Melin</a></span>
+              <span class="credit-item__role">Music</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name"><a href="https://kronbits.itch.io" target="_blank" rel="noopener noreferrer">Kronbits</a></span>
+              <span class="credit-item__role">Sound effects</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name"><a href="https://leohpaz.itch.io/" target="_blank" rel="noopener noreferrer">Leohpaz</a></span>
+              <span class="credit-item__role">Sound effects</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name"><a href="https://cicifyre.itch.io/" target="_blank" rel="noopener noreferrer">Cici Fyre</a></span>
+              <span class="credit-item__role">Voices</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Links</h4>
+          <div class="sidebar-links">
+            <a href="https://miraclejester.itch.io/cursed-ruby" class="sidebar-link" target="_blank" rel="noopener noreferrer">Play on itch.io</a>
+            <a href="https://github.com/miraclejester/metroidvaniamonthXVII" class="sidebar-link" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button id="lightbox-close" class="lightbox__close" aria-label="Close image viewer">&times;</button>
+    <div class="lightbox__img-wrap">
+      <img id="lightbox-img" alt="" />
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__copy">
+        <p>&copy; Jose Montenegro</p>
+        <p>Built and designed by Jose Montenegro.</p>
+      </div>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="https://github.com/miraclejester" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://miraclejester.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../../js/main.js"></script>
+</body>
+</html>

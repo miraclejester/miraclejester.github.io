@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jumping Jack | Jose Montenegro</title>
+  <meta name="description" content="A faithful Windows remake of the classic Jumping Jack ZX Spectrum arcade game, built in Unity as a reverse-engineering exercise." />
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="../../index.html" class="nav__logo">Jose Montenegro</a>
+      <ul class="nav__links" role="list">
+        <li><a href="../../index.html#experience">Experience</a></li>
+        <li><a href="../../index.html#projects">Projects</a></li>
+        <li><a href="../../index.html#about">About</a></li>
+        <li><a href="../../index.html#contact">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main">
+    <div class="detail-hero">
+      <div class="container">
+        <nav class="detail-hero__breadcrumb" aria-label="Breadcrumb">
+          <a href="../../index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <a href="../../projects/">Projects</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Jumping Jack</span>
+        </nav>
+        <div class="detail-hero__tags">
+          <span class="tag tag--status-release">Released</span>
+          <span class="tag">Arcade</span>
+          <span class="tag">Windows</span>
+        </div>
+        <h1 class="detail-hero__title">Jumping Jack</h1>
+        <p class="detail-hero__tagline">A faithful Windows remake of the classic Jumping Jack ZX Spectrum arcade game.</p>
+        <div class="detail-hero__links">
+          <a href="https://miraclejester.itch.io/jumping-jack" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Download on itch.io</a>
+          <a href="https://github.com/jmontene/JumpingJack" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container detail-layout">
+      <div class="detail-main">
+
+        <div class="detail-hero-img">
+          <img src="../../../projects/jumping-jack/media/hero.png" alt="Jumping Jack: platform climbing gameplay" />
+        </div>
+
+        <section class="screenshots-section" aria-label="Screenshots">
+          <h3>Screenshots</h3>
+          <div class="screenshots-grid">
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View title screen full size">
+              <img src="../../../projects/jumping-jack/media/title.png" alt="Jumping Jack: title screen" loading="lazy" />
+            </div>
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View gameplay screenshot full size">
+              <img src="../../../projects/jumping-jack/media/gameplay.png" alt="Jumping Jack: gameplay" loading="lazy" />
+            </div>
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View level screenshot full size">
+              <img src="../../../projects/jumping-jack/media/level.png" alt="Jumping Jack: level view" loading="lazy" />
+            </div>
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View game over screen full size">
+              <img src="../../../projects/jumping-jack/media/gameover.png" alt="Jumping Jack: game over screen" loading="lazy" />
+            </div>
+          </div>
+        </section>
+
+        <section class="detail-description">
+          <h3>About the Project</h3>
+          <p>A remake of Jumping Jack, the 1983 ZX Spectrum arcade game originally published by Imagine Software. The original's challenge is preserved intact: navigate upward through rows of platforms, clear gaps with precise jumps, and avoid enemies with deliberately minimal controls (arrow keys to move and jump, Enter to start).</p>
+          <p>The project began as a personal exercise in extracting the design of a classic game through reverse engineering and reproducing it faithfully. Available on itch.io as a free Windows download.</p>
+        </section>
+
+        <section class="detail-highlights">
+          <h3>Technical Highlights</h3>
+          <ul>
+            <li>Minimal, intentional control scheme matching the original (arrow keys + Enter)</li>
+            <li>Reverse-engineered design from playing the original</li>
+          </ul>
+        </section>
+
+        <section class="detail-features">
+          <h3>Features</h3>
+          <ul>
+            <li>Faithful recreation of the Jumping Jack ZX Spectrum arcade game, including the small lore between levels</li>
+          </ul>
+        </section>
+
+        <section class="detail-learned">
+          <h3>What I Learned</h3>
+          <p>Remaking a classic is a useful design exercise precisely because you cannot take shortcuts: every mechanic 
+            has to be understood well enough to reproduce it accurately. Reverse-engineering how the original handled 
+            platform rows, enemy movement, and gap detection built an intuition for classic arcade design principles 
+            that is harder to acquire from reading about them.</p>
+        </section>
+
+      </div>
+
+      <aside class="detail-sidebar" aria-label="Project details">
+        <div class="sidebar-card">
+          <h4>Project Info</h4>
+          <dl class="sidebar-meta">
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Released</dt>
+              <dd class="sidebar-meta__value">June 2019</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Status</dt>
+              <dd class="sidebar-meta__value">Released</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Genre</dt>
+              <dd class="sidebar-meta__value">Arcade</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Platforms</dt>
+              <dd class="sidebar-meta__value">Windows</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Team</dt>
+              <dd class="sidebar-meta__value">Solo</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Role</dt>
+              <dd class="sidebar-meta__value">Sole Developer</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Tech Stack</h4>
+          <div class="sidebar-stack">
+            <span class="tag tag--accent">Unity</span>
+            <span class="tag">C#</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Credits</h4>
+          <ul class="credits-list">
+            <li class="credit-item">
+              <span class="credit-item__name">Jose Montenegro</span>
+              <span class="credit-item__role">Sole Developer</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Links</h4>
+          <div class="sidebar-links">
+            <a href="https://miraclejester.itch.io/jumping-jack" class="sidebar-link" target="_blank" rel="noopener noreferrer">Download on itch.io</a>
+            <a href="https://github.com/jmontene/JumpingJack" class="sidebar-link" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button id="lightbox-close" class="lightbox__close" aria-label="Close image viewer">&times;</button>
+    <div class="lightbox__img-wrap">
+      <img id="lightbox-img" alt="" />
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__copy">
+        <p>&copy; Jose Montenegro</p>
+        <p>Built and designed by Jose Montenegro.</p>
+      </div>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="https://github.com/miraclejester" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://miraclejester.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../../js/main.js"></script>
+</body>
+</html>
