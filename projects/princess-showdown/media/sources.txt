@@ -1,0 +1,16 @@
+Screenshot sources for Princess Showdown
+
+screenshot-1.png:
+https://img.itch.zone/aW1hZ2UvMzM2NDk4LzE2NjgzOTMucG5n/347x500/5AQcLw.png
+
+screenshot-2.png:
+https://img.itch.zone/aW1hZ2UvMzM2NDk4LzE2NjgzOTAucG5n/347x500/l4TTkM.png
+
+screenshot-3.png:
+https://img.itch.zone/aW1hZ2UvMzM2NDk4LzE2NjgzOTEucG5n/347x500/b2PpF0.png
+
+screenshot-4.png:
+https://img.itch.zone/aW1hZ2UvMzM2NDk4LzE2NjgzOTIucG5n/347x500/uOMvEa.png
+
+screenshot-5.png (cover):
+https://img.itch.zone/aW1hZ2UvMzM2NDk4LzE2NjgzODkucG5n/347x500/j8nL2K.png

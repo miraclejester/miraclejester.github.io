@@ -1,0 +1,6 @@
+hero.jpg
+https://img.itch.zone/aW1nLzE5NTUwNTI0LmpwZw==/original/4EvOkX.jpg
+
+Note: Net Trader 2000 has one screenshot (cover art / gameplay view showing the stock trading UI with a Windows 95-style interface).
+The temp file for this image is stored at:
+C:\Users\josmo\.claude\projects\C--Users-josmo-InUse-Web-Projects-portfolio-builder\beaee70b-7b81-403e-be13-58eb575fff29\tool-results\webfetch-1777834537241-4kb5wi.jpg
