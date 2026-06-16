@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drury Lane Damage | Jose Montenegro</title>
+  <meta name="description" content="Fight as the Muffin Man's monster in this baked beat-em-up - Submission to NESJam 2026 using Godot 4" />
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="../../index.html" class="nav__logo">Jose Montenegro</a>
+      <ul class="nav__links" role="list">
+        <li><a href="../../index.html#experience">Experience</a></li>
+        <li><a href="../../index.html#projects">Projects</a></li>
+        <li><a href="../../index.html#about">About</a></li>
+        <li><a href="../../index.html#contact">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main">
+    <div class="detail-hero">
+      <div class="container">
+        <nav class="detail-hero__breadcrumb" aria-label="Breadcrumb">
+          <a href="../../index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <a href="../../projects/">Projects</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Drury Lane Damage</span>
+        </nav>
+        <div class="detail-hero__tags">
+          <span class="tag tag--jam">NESJam 2026</span>
+          <span class="tag tag--status-proto">Released</span>
+          <span class="tag">2D Beat-em-up</span>
+          <span class="tag">Web</span>
+        </div>
+        <h1 class="detail-hero__title">Drury Lane Damage</h1>
+        <p class="detail-hero__tagline">Fight as the Muffin Man's monster in this baked beat-em-up</p>
+        <div class="detail-hero__links">
+          <a href="https://robyn-cvh.itch.io/drury-lane-damage" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Play on itch.io</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container detail-layout">
+      <div class="detail-main">
+
+        <div class="detail-hero-img">
+          <img src="media/hero.png" alt="Drury Lane Damage: game logo" />
+        </div>
+
+        <section class="screenshots-section" aria-label="Screenshots">
+          <h3>Screenshots</h3>
+          <div class="screenshots-grid">
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View screenshot 1 full size">
+              <img src="media/screenshot-1.jpeg" alt="Drury Lane Damage: opening sequence" loading="lazy" />
+            </div>
+            <div class="screenshot-thumb" role="button" tabindex="0" aria-label="View screenshot 2 full size">
+              <img src="media/screenshot-2.jpeg" alt="Drury Lane Damage: gameplay" loading="lazy" />
+            </div>
+          </div>
+        </section>
+
+        <section class="detail-description">
+          <h3>About the Project</h3>
+          <p>Play as the Muffin Man's monster in a retro beat-em-up, defeating other cursed pastries. Built in 15 days for NESJam 2026 (theme: Horrible night to have a curse)</p>
+          <p>I was part of the programming team with 3 other programmers. My main role within this team was coding the UI, most of the in-game cutscenes, the prologue level, the dialogue sequences, the title/credits screens and the opening sequence</p>
+        </section>
+
+        <section class="detail-highlights">
+          <h3>Technical Highlights</h3>
+          <ul>
+            <li>Used a smaller version of Akoya's node-based system for composable sequences when making cutscenes, where each sequence was a list of behavior nodes ran sequentially</li>
+            <li>The dialogue system was data-driven, with a textbox component that took dialogue data such as the voice audio to play and the list of individual dialogue pieces to run sequentially</li>
+            <li>Game text is able to accept wildcard text to replace depending on different conditions. For example, controls text would automatically change depending on the device used</li>
+          </ul>
+        </section>
+
+        <section class="detail-features">
+          <h3>Features</h3>
+          <ul>
+            <li>Fight through the streets at night, defeating the Muffin Man's cursed pastries</li>
+            <li>Use punches and combos, as well as the blueberry projectile powerup</li>
+            <li>Retro-styled cinematic experience in the opening and ending scenes</li>
+          </ul>
+        </section>
+
+        <section class="detail-learned">
+          <h3>What I Learned</h3>
+          <p>Implementing the dialogue system taught me about the challenges in integrating sound with moving text, as well as timing the two together. The resulting system made in the jam period definitely has room for improvement, but it is a solid start that worked well in the final product. </p>
+          <p> Re-using the architectural form of Akoya's node based system for cutscene exposed a weakness in it: since it has to use scene nodes, it can be prone to usability issues when including references to things outside the root of the sequence. This can be mitigated with more careful scene architecture or by transforming the system into a truly data-driven one where all the configuration lives on a single object</p>
+        </section>
+
+      </div>
+
+      <aside class="detail-sidebar" aria-label="Project details">
+        <div class="sidebar-card">
+          <h4>Project Info</h4>
+          <dl class="sidebar-meta">
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Released</dt>
+              <dd class="sidebar-meta__value">June 2026</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Status</dt>
+              <dd class="sidebar-meta__value">Released</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Genre</dt>
+              <dd class="sidebar-meta__value">2D Beat-em-up</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Platforms</dt>
+              <dd class="sidebar-meta__value">Web</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Team</dt>
+              <dd class="sidebar-meta__value">9 people (mid-sized team)</dd>
+            </div>
+            <div class="sidebar-meta__item">
+              <dt class="sidebar-meta__label">Role</dt>
+              <dd class="sidebar-meta__value">Programmer</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Jam Result</h4>
+          <div class="jam-strip">
+            <span class="jam-strip__name">Voting phase ongoing</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Tech Stack</h4>
+          <div class="sidebar-stack">
+            <span class="tag tag--accent">Godot 4</span>
+            <span class="tag">GDScript</span>
+            <span class="tag">Git</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Credits</h4>
+          <ul class="credits-list">
+            <li class="credit-item">
+              <span class="credit-item__name">Jose Montenegro</span>
+              <span class="credit-item__role">Programming</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name"><a href="https://robyn-cvh.itch.io/" target="_blank" rel="noopener noreferrer">Robyn_cvh</a></span>
+              <span class="credit-item__role">Programming, Writing, Music, Art, Font, VO</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name"><a href="https://skigothy.itch.io/" target="_blank" rel="noopener noreferrer">skigothy</a></span>
+              <span class="credit-item__role">Programming</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name"><a href="https://nightshadov.itch.io/" target="_blank" rel="noopener noreferrer">nightshadov</a></span>
+              <span class="credit-item__role">Programming</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name"><a href="https://www.instagram.com/cakeatjobs/" target="_blank" rel="noopener noreferrer">Kate Jacobs / cakeatjobs</a></span>
+              <span class="credit-item__role">Music</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name"><a href="https://www.instagram.com/apixelnoob" target="_blank" rel="noopener noreferrer">Bruna Teixeira / apixelnoob </a></span>
+              <span class="credit-item__role">Art</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name">Wateronix</span>
+              <span class="credit-item__role">Art</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name">Aiden Call</span>
+              <span class="credit-item__role">VO</span>
+            </li>
+            <li class="credit-item">
+              <span class="credit-item__name">Reshel Mae</span>
+              <span class="credit-item__role">VO</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Links</h4>
+          <div class="sidebar-links">
+            <a href="https://robyn-cvh.itch.io/drury-lane-damage" class="sidebar-link" target="_blank" rel="noopener noreferrer">Play on itch.io</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button id="lightbox-close" class="lightbox__close" aria-label="Close image viewer">&times;</button>
+    <div class="lightbox__img-wrap">
+      <img id="lightbox-img" alt="" />
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__copy">
+        <p>&copy; Jose Montenegro</p>
+        <p>Built and designed by Jose Montenegro.</p>
+      </div>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="mailto:miraclejester413@gmail.com">Email</a>
+        <a href="https://github.com/miraclejester" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://miraclejester.itch.io" target="_blank" rel="noopener noreferrer">itch.io</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../../js/main.js"></script>
+</body>
+</html>
