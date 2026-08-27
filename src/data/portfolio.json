@@ -20,10 +20,10 @@
     }
   },
   "hero": {
-    "eyebrow": "Game Developer",
-    "headline": "I write the code that makes games move.",
-    "subheadline": "Game developer with a focus on systems architecture, feel-first design, and shipping.",
-    "tagline": "From live-service MMOs reaching millions of players to top-10% jam games built in a week, I work across the full spectrum of game development.",
+    "eyebrow": "Software Developer",
+    "headline": "I build interactive experiences for the web",
+    "subheadline": "Software developer with a focus on systems architecture, feel-first design, and shipping.",
+    "tagline": "Building fast, high-scale web apps used by millions",
     "ctas": [
       { "label": "See my work", "href": "/#experience", "variant": "primary" },
       { "label": "Get in touch", "href": "/#contact", "variant": "secondary" }
@@ -32,16 +32,20 @@
   "about": {
     "heading": "About",
     "bio": [
-      "I'm a software developer who has worked across game development and web, examples of my work are combat systems for an educational MMO used in schools across North America, shipping Metroidvania jam games that placed in the top 10% of their respective competitions, and owning client-side monetization systems that drove measurable profit improvements in A/B testing.",
-      "My game work lives primarily in Godot, PixiJS and Unity. In Godot I've built node-based state machines, custom GLSL shaders, FMOD audio integrations, and player controllers that require both technical precision and a strong sense of game feel. With PixiJS I've shipped professional live-service features to millions of players at Prodigy. With Unity I designed and built the data-driven terminal systems powering VIZARD, contributed across a large coordinated team for ForgeFront and more. Most recently, I was part of the programming team on Drury Lane Damage, a retro beat-em-up shipped in 15 days for NESJam 2026.",
-      "I've operated at two ends of the game development spectrum: solo jam programmer designing systems from scratch under a one-week deadline, and professional developer shipping to a live audience of millions with the full weight of QA, product, and cross-team coordination. That range makes me comfortable with both ambiguity and process. I'm equally at home owning a feature end-to-end or contributing as one developer on a large coordinated team."
+      "For 6+ years at Prodigy Game, I developed and shipped features for a large-scale HTML5 application serving millions of monthly active users, working primarily in TypeScript, React, and PixiJS. That work ranged from rebuilding monetization and purchase flows (which lifted membership conversions by 20%) to building internal React tools that sped up how the whole team shipped features, to hunting down the performance and production bugs that only surface at real scale.",
+      "I care about clean, maintainable systems and measurable outcomes, including code that's fast, tested, and easy for the next person to build on. Because my background spans frontend web and game development, I'm comfortable with complex, real-time, highly interactive UI where performance is non-negotiable.",
+      "I have also shipped several of my own published games on the side.",
+      "I'm currently open to full-time Frontend / Web Developer roles, remote or in the Greater Toronto Area. If you're building something that needs to be fast, polished, and scalable, let's talk. My email is josmontenegro2012@gmail.com. Portfolio: miraclejester.github.io"
     ],
     "skills": {
+      "Frameworks": ["React", "Next.js", "Prisma", "PixiJS", "Phaser"],
       "Engines": ["Godot 4", "Godot 3", "Unity"],
-      "Languages": ["GDScript", "C#", "TypeScript"],
-      "Tools": ["FMOD", "Godot FMOD extension", "Spine", "Aseprite", "Blender", "Tiled", "Git", "Git LFS"],
-      "Frameworks": ["PixiJS", "Phaser", "React", "Next.js"],
+      "Languages": ["TypeScript", "C++", "C#", "Python"],
+      "Tools": ["Git", "Git LFS", "FMOD", "Godot FMOD extension", "Spine", "Aseprite", "Blender", "Tiled"],
       "Areas": [
+        "Fullstack Web Development",
+        "Databases",
+        "Data-driven architecture",
         "State machine architecture",
         "Combat and battle systems",
         "Monetization and IAP systems",
@@ -49,14 +53,13 @@
         "Adaptive audio integration",
         "Live-service feature development",
         "Level design",
-        "Data-driven architecture",
         "Localization pipelines"
       ]
     }
   },
   "contact": {
     "heading": "Let's talk.",
-    "body": "I'm open to game developer and software developer roles. Reach out and I'll get back to you promptly.",
+    "body": "I'm open to web and game developer roles. Reach out and I'll get back to you promptly.",
     "links": [
       { "label": "Email me", "href": "mailto:miraclejester413@gmail.com", "variant": "primary" },
       { "label": "GitHub", "href": "https://github.com/miraclejester", "variant": "secondary" },
@@ -66,7 +69,7 @@
   "sections": {
     "experience": {
       "title": "Professional Experience",
-      "blurb": "Production work across live-service games, educational software, and published titles."
+      "blurb": "Production work across live-service web aps, educational software, and published titles."
     },
     "projects": {
       "title": "Projects",
