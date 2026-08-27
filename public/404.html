@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jose Montenegro | Game Developer</title>
+    <script>
+      // GitHub Pages SPA fallback.
+      // When GitHub Pages serves this 404.html for a deep link like /projects/cursed-ruby,
+      // we encode the path as a query parameter and redirect to the root so the React
+      // router can take over. The main index.html decodes it on load.
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1).join('/') +
+        '/?p=' + encodeURIComponent(l.pathname + l.search) +
+        (l.hash || '')
+      );
+    </script>
+  </head>
+  <body></body>
+</html>

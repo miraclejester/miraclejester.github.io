@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Design tokens.
+
+   Every token below lives in a Tailwind v4 theme namespace, so it
+   generates real utilities: --color-fg-muted -> text-fg-muted,
+   --container-page -> max-w-page, --shadow-card -> shadow-card.
+
+   Do NOT write classes like text-[--color-fg]. That syntax does not
+   exist in Tailwind v4 and compiles to nothing. Use text-fg, or
+   text-(--some-var) for a var that is not a theme token.
+   ============================================================ */
+
+@theme {
+  /* ---- Surfaces ---- */
+  --color-bg: #0b0d10;
+  --color-surface: #12151a;
+  --color-elevated: #181c23;
+
+  /* ---- Lines: low contrast on purpose, so borders read as seams ---- */
+  --color-line: #232833;
+  --color-line-soft: #1a1e26;
+  --color-line-strong: #333a48;
+
+  /* ---- Text ---- */
+  --color-fg: #edeff4;
+  --color-fg-muted: #a3aab9;
+  --color-fg-faint: #737b8b;
+
+  /* ---- Accents ---- */
+  --color-accent: #6d9bff;
+  --color-accent-bright: #93b6ff;
+  --color-gold: #f2c54a;
+  --color-emerald: #45c185;
+  --color-amber: #f0a53a;
+
+  /* ---- Layout ---- */
+  --container-page: 72rem;
+  --container-prose: 42rem;
+
+  /* ---- Radii ---- */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+
+  /* ---- Shadows ---- */
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4), 0 12px 28px -18px rgb(0 0 0 / 0.7);
+  --shadow-lift: 0 2px 4px rgb(0 0 0 / 0.35), 0 28px 56px -24px rgb(0 0 0 / 0.75);
+
+  /* ---- Type ---- */
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", "Cascadia Code", ui-monospace, monospace;
+}
+
+@layer base {
+  /* Tailwind v4 defaults every border to currentColor, which paints
+     bright hairlines on a dark theme. Anchor it to the line token. */
+  *,
+  ::before,
+  ::after {
+    border-color: var(--color-line);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    ::before,
+    ::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  h1 {
+    font-size: clamp(2.25rem, 1.6rem + 2.6vw, 3.5rem);
+  }
+  h2 {
+    font-size: clamp(1.75rem, 1.45rem + 1.3vw, 2.375rem);
+  }
+  h3 {
+    font-size: clamp(1.125rem, 1.05rem + 0.35vw, 1.3125rem);
+    letter-spacing: -0.01em;
+  }
+  h4 {
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+  }
+
+  /* No text-wrap on <p>. Chrome's "pretty" balances multi-line blocks and
+     leaves paragraphs wrapping far short of their box, which reads as
+     ragged and cramped. Balancing stays on headings only. */
+
+  img,
+  video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: var(--radius-sm);
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-accent) 35%, transparent);
+    color: var(--color-fg);
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-line-strong);
+    border: 2px solid var(--color-bg);
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-fg-faint);
+  }
+}
+
+@layer components {
+  /* Reading measure for body copy. Applied per block, never globally:
+     a global max-width on <p> drags every paragraph to the left edge
+     of its container and makes wide screens look mis-aligned. */
+  .prose-measure > p {
+    max-width: 68ch;
+  }
+}

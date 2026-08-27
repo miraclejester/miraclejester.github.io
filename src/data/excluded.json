@@ -1,0 +1,8 @@
+{
+  "ids": [
+    "net-trader-2000",
+    "softgames-test",
+    "turn-jam-2-team-1"
+  ],
+  "note": "ids intentionally kept off the site. net-trader-2000 and softgames-test are present in workspace/content/projects.json but have no page under workspace/site/projects/. turn-jam-2-team-1 has no meaningful content (null title, null description, no media) and no site page. Later pipeline runs should not resurrect any of these."
+}

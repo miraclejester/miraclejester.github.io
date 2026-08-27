@@ -1,0 +1,1055 @@
+{
+  "site": {
+    "title": "Jose Montenegro | Game Developer",
+    "description": "Game developer specializing in systems architecture, feel-first design, and shipping. Godot, Unity, and TypeScript. Top-10% jam placements and professional live-service experience at Prodigy Education.",
+    "author": "Jose Montenegro",
+    "nav": [
+      { "label": "Experience", "href": "/#experience" },
+      { "label": "Projects", "href": "/#projects" },
+      { "label": "About", "href": "/#about" },
+      { "label": "Contact", "href": "/#contact" }
+    ],
+    "social": [
+      { "label": "GitHub", "href": "https://github.com/miraclejester", "kind": "github" },
+      { "label": "itch.io", "href": "https://miraclejester.itch.io", "kind": "itch" },
+      { "label": "Email", "href": "mailto:miraclejester413@gmail.com", "kind": "email" }
+    ],
+    "footer": {
+      "copyright": "© Jose Montenegro",
+      "note": "Built and designed by Jose Montenegro."
+    }
+  },
+  "hero": {
+    "eyebrow": "Game Developer",
+    "headline": "I write the code that makes games move.",
+    "subheadline": "Game developer with a focus on systems architecture, feel-first design, and shipping.",
+    "tagline": "From live-service MMOs reaching millions of players to top-10% jam games built in a week, I work across the full spectrum of game development.",
+    "ctas": [
+      { "label": "See my work", "href": "/#experience", "variant": "primary" },
+      { "label": "Get in touch", "href": "/#contact", "variant": "secondary" }
+    ]
+  },
+  "about": {
+    "heading": "About",
+    "bio": [
+      "I'm a software developer who has worked across game development and web, examples of my work are combat systems for an educational MMO used in schools across North America, shipping Metroidvania jam games that placed in the top 10% of their respective competitions, and owning client-side monetization systems that drove measurable profit improvements in A/B testing.",
+      "My game work lives primarily in Godot, PixiJS and Unity. In Godot I've built node-based state machines, custom GLSL shaders, FMOD audio integrations, and player controllers that require both technical precision and a strong sense of game feel. With PixiJS I've shipped professional live-service features to millions of players at Prodigy. With Unity I designed and built the data-driven terminal systems powering VIZARD, contributed across a large coordinated team for ForgeFront and more. Most recently, I was part of the programming team on Drury Lane Damage, a retro beat-em-up shipped in 15 days for NESJam 2026.",
+      "I've operated at two ends of the game development spectrum: solo jam programmer designing systems from scratch under a one-week deadline, and professional developer shipping to a live audience of millions with the full weight of QA, product, and cross-team coordination. That range makes me comfortable with both ambiguity and process. I'm equally at home owning a feature end-to-end or contributing as one developer on a large coordinated team."
+    ],
+    "skills": {
+      "Engines": ["Godot 4", "Godot 3", "Unity"],
+      "Languages": ["GDScript", "C#", "TypeScript"],
+      "Tools": ["FMOD", "Godot FMOD extension", "Spine", "Aseprite", "Blender", "Tiled", "Git", "Git LFS"],
+      "Frameworks": ["PixiJS", "Phaser", "React", "Next.js"],
+      "Areas": [
+        "State machine architecture",
+        "Combat and battle systems",
+        "Monetization and IAP systems",
+        "Shader programming",
+        "Adaptive audio integration",
+        "Live-service feature development",
+        "Level design",
+        "Data-driven architecture",
+        "Localization pipelines"
+      ]
+    }
+  },
+  "contact": {
+    "heading": "Let's talk.",
+    "body": "I'm open to game developer and software developer roles. Reach out and I'll get back to you promptly.",
+    "links": [
+      { "label": "Email me", "href": "mailto:miraclejester413@gmail.com", "variant": "primary" },
+      { "label": "GitHub", "href": "https://github.com/miraclejester", "variant": "secondary" },
+      { "label": "itch.io", "href": "https://miraclejester.itch.io", "variant": "secondary" }
+    ]
+  },
+  "sections": {
+    "experience": {
+      "title": "Professional Experience",
+      "blurb": "Production work across live-service games, educational software, and published titles."
+    },
+    "projects": {
+      "title": "Projects",
+      "blurb": "Personal games and jam entries: built to explore systems, sharpen craft, and ship something real."
+    }
+  },
+  "experience": [
+    {
+      "id": "prodigy",
+      "kind": "experience",
+      "title": "Prodigy Education",
+      "role": "Software Developer",
+      "tagline": "Web and mobile MMO teaching math and science to millions of students across North America.",
+      "summary": "Web and mobile MMO that teaches math and science to millions of students. Contributed across battle system, store infrastructure, premium currency, and IAP unification.",
+      "description": [
+        "Prodigy is a live-service educational MMO used in schools across the US and Canada, gamifying math and science for grades 1 to 8. Jose worked across multiple feature teams (standard features, battle system, and monetization), shipping production code to a live audience of millions.",
+        "The game runs on a custom engine built on PixiJS with TypeScript, originally written in Phaser, giving the role unusually broad exposure to both game development patterns and web engineering practices. A monetization feature Jose owned directly contributed to measurable A/B test improvements."
+      ],
+      "genre": "Educational MMO / RPG",
+      "engineFamily": "web",
+      "status": "live-service",
+      "statusLabel": "Live-Service",
+      "dateLabel": "Aug 2019 – Jan 2026",
+      "sortDate": "2026-01",
+      "year": 2026,
+      "platforms": ["Web", "Android", "iOS"],
+      "techStack": ["PixiJS", "TypeScript", "Phaser", "React", "Spine", "Git"],
+      "highlights": [
+        "Battle system revamp: laid the groundwork for a more engaging combat experience, reworking core architecture for extensibility",
+        "Tower Town: designed and implemented a focus-mode zone where players build and decorate their own town while answering more questions",
+        "Store revamp: part of the team that made the store more data-driven, added bundle support, and built React-based internal web tooling for content management",
+        "Premium currency (Magicoin): contributed to the introduction of the game's premium currency system",
+        "IAP unification: owned the client-side aspect of unifying in-app purchase systems across web and mobile",
+        "UI development: built numerous interface screens across different feature areas",
+        "Animations: implemented character and UI animations using Spine"
+      ],
+      "features": [
+        "Tower Town: A special zone that acts as focus time for players, where more questions are answered in average while the player builds and decorates their own little town",
+        "RPG Battle System: Was involved in the recent revamp of the battle system, laying foundations for a more engaging experience",
+        "Store: Was part of the team that revamped the store experience by making it more data driven and adding new features like bundles",
+        "Premium Currency: Was part of the team that introduced Magicoin, the premium currency of the game",
+        "IAP: Was in charge of the client-side aspect of IAP systems unification between web and mobile"
+      ],
+      "jam": null,
+      "team": {
+        "composition": "Large team",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Software Developer (Standard Features, Battle System, Monetization)", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/experience/prodigy/hero.webp", "alt": "Prodigy Education game screenshot" },
+        "screenshots": [
+          { "src": "/media/experience/prodigy/battle.png", "alt": "Prodigy: battle system" },
+          { "src": "/media/experience/prodigy/hub.png", "alt": "Prodigy: hub area" },
+          { "src": "/media/experience/prodigy/math.png", "alt": "Prodigy: math question interface" },
+          { "src": "/media/experience/prodigy/store.png", "alt": "Prodigy: store interface" },
+          { "src": "/media/experience/prodigy/monetization.png", "alt": "Prodigy: monetization feature" }
+        ],
+        "videos": [
+          { "src": "https://www.youtube.com/embed/6NZsAzNaYZI", "alt": "Prodigy Education gameplay video", "poster": null }
+        ]
+      },
+      "links": [
+        { "label": "Play Prodigy", "href": "https://play.prodigygame.com", "kind": "play" },
+        { "label": "Watch on YouTube", "href": "https://youtu.be/6NZsAzNaYZI", "kind": "youtube" }
+      ],
+      "whatILearned": "Working at Prodigy across battle, store, and monetization teams produced a developer who is comfortable with the full weight of live-service production: QA handoffs, cross-team coordination, product constraints, and shipping to a real audience where regressions have consequences. The web-native stack (PixiJS, TypeScript, React) meant game development patterns had to coexist with web engineering discipline, a combination that broadened technical range considerably.",
+      "featured": true,
+      "order": 0
+    },
+    {
+      "id": "illuminia-studios",
+      "kind": "experience",
+      "title": "Illuminia Studios",
+      "role": "Gameplay Programmer",
+      "tagline": "Gameplay programmer for BOAA, a fast-paced arcade game shipped on Android, iOS, and the Microsoft Store.",
+      "summary": "Gameplay programmer for BOAA, a fast-paced Afrofuturist arcade game shipped to Android, iOS, and the Microsoft Store. Built character controller, enemy AI, hazard systems, and multiplayer features.",
+      "description": [
+        "At Illuminia Studios, I was the Gameplay Programmer for BOAA, a pick-up-and-play arcade game with an Afrofuturist aesthetic, released on Android, iOS, and the Microsoft Store. Version 0.4.0 included arcade mode, multiplayer, and leaderboards.",
+        "The studio was working toward a story mode and EOS blockchain integration for player collectibles before ceasing operations due to funding constraints. BOAA built a small dedicated community on the Microsoft Store before the shutdown."
+      ],
+      "genre": "Arcade",
+      "engineFamily": "unity",
+      "status": "archived",
+      "statusLabel": "Archived",
+      "dateLabel": "Jul 2018 – Dec 2018",
+      "sortDate": "2018-12",
+      "year": 2018,
+      "platforms": ["Android", "iOS", "Microsoft Store"],
+      "techStack": ["Unity", "C#", "Git"],
+      "highlights": [
+        "Character controller: built the core player movement and feel for an arcade action game",
+        "Enemy design and implementation",
+        "Playing field hazards system",
+        "UI implementation across game screens",
+        "Shipped to three platforms: Android, iOS, and Microsoft Store"
+      ],
+      "features": [
+        "Pick-and-play arcade action",
+        "Fun art style and game world inspired by Afrofuturism",
+        "Multiplayer and Leaderboards"
+      ],
+      "jam": null,
+      "team": {
+        "composition": "Small team (3-person core team)",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Gameplay Programmer", "url": null },
+          { "name": "Gideon Gyabaah", "role": "Designer and Multiplayer Programmer", "url": null },
+          { "name": "Samuel Anim-Addo", "role": "Artist", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/experience/illuminia-studios/hero.png", "alt": "BOAA game screenshot: Illuminia Studios" },
+        "screenshots": [],
+        "videos": [
+          { "src": "https://www.youtube.com/embed/_x0A98nzbjY", "alt": "BOAA gameplay video", "poster": null }
+        ]
+      },
+      "links": [
+        { "label": "Watch on YouTube", "href": "https://www.youtube.com/watch?v=_x0A98nzbjY", "kind": "youtube" }
+      ],
+      "whatILearned": "Illuminia was the first startup experience with fast-paced development, direct trade-offs against deadlines, and the reality that a technically solid product can still be halted by funding rather than quality. It reinforced existing Unity expertise and introduced the practical discipline of shipping to multiple mobile storefronts simultaneously.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "learn-safari",
+      "kind": "experience",
+      "title": "Learn Safari",
+      "role": "Gameplay Programmer",
+      "tagline": "Gameplay programmer for Spanish Safari, an educational game teaching Spanish to children aged 3 to 9.",
+      "summary": "Gameplay programmer on Spanish Safari, an educational Unity game teaching Spanish to children aged 3 to 9, shipped to iOS and web as v1.0.",
+      "description": [
+        "At Learn Safari, I was a Gameplay Programmer on Spanish Safari: the company's primary product teaching Spanish to children aged 3 to 9 through a mix of 3D world exploration and 2D educational minigames. I was involved from early development through the 1.0 release in October 2016.",
+        "Built in Unity for iOS and web, the game uses a cartoony 3D overworld connecting to self-contained 2D minigames that reinforce language lessons. This was my first professional role in game development."
+      ],
+      "genre": "Educational",
+      "engineFamily": "unity",
+      "status": "released",
+      "statusLabel": "Released",
+      "dateLabel": "Feb 2016 – Sep 2016",
+      "sortDate": "2016-09",
+      "year": 2016,
+      "platforms": ["iOS", "Web"],
+      "techStack": ["Unity", "C#", "Git"],
+      "highlights": [
+        "3D navigation systems for player characters in the overworld",
+        "Internal inventory management system",
+        "Minigame development end-to-end: design, implementation, and integration with the main game loop",
+        "Multiple distinct 2D minigames, each targeting a specific language learning objective",
+        "Shipped to iOS and web as v1.0"
+      ],
+      "features": [
+        "Fun minigames that make it easy to learn",
+        "Cute world with friendly characters",
+        "Lessons are still being added to the game",
+        "3D navigation systems for the characters"
+      ],
+      "jam": null,
+      "team": {
+        "composition": "Small team",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Gameplay Programmer", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/experience/learn-safari/hero.webp", "alt": "Learn Safari Spanish Safari game screenshot" },
+        "screenshots": [
+          { "src": "/media/experience/learn-safari/s1.webp", "alt": "Spanish Safari: screenshot 1" },
+          { "src": "/media/experience/learn-safari/s2.webp", "alt": "Spanish Safari: screenshot 2" },
+          { "src": "/media/experience/learn-safari/s3.webp", "alt": "Spanish Safari: screenshot 3" }
+        ],
+        "videos": [
+          { "src": "https://www.youtube.com/embed/TBjedE0R06o", "alt": "Spanish Safari gameplay video", "poster": null }
+        ]
+      },
+      "links": [
+        { "label": "Play Spanish Safari", "href": "https://www.learnsafari.com/spanish-safari-web-build", "kind": "play" },
+        { "label": "Watch on YouTube", "href": "https://www.youtube.com/watch?v=TBjedE0R06o", "kind": "youtube" }
+      ],
+      "whatILearned": "Learn Safari was my first professional role in game development. It established the habits that I carry through all later work: estimating deliverables, collaborating within a team under production constraints, and building the kind of Unity debugging and optimization fluency that only comes from shipping real software. The minigame architecture of self-contained modules that interface cleanly with the main game became an early model for thinking about system boundaries.",
+      "featured": true,
+      "order": 2
+    }
+  ],
+  "projects": [
+    {
+      "id": "drury-lane-damage",
+      "kind": "project",
+      "title": "Drury Lane Damage",
+      "role": "Programmer",
+      "tagline": "Fight as the Muffin Man's monster in this baked beat-em-up",
+      "summary": "Fight as the Muffin Man's monster in this baked beat-em-up - Submission to NESJam 2026 using Godot 4.",
+      "description": [
+        "Play as the Muffin Man's monster in a retro beat-em-up, defeating other cursed pastries. Built in 15 days for NESJam 2026 (theme: Horrible night to have a curse)",
+        "I was part of the programming team with 3 other programmers. My main role within this team was coding the UI, most of the in-game cutscenes, the prologue level, the dialogue sequences, the title/credits screens and the opening sequence"
+      ],
+      "genre": "2D Beat-em-up",
+      "engineFamily": "godot",
+      "status": "released",
+      "statusLabel": "Released",
+      "dateLabel": "June 2026",
+      "sortDate": "2026-06",
+      "year": 2026,
+      "platforms": ["Web"],
+      "techStack": ["Godot 4", "GDScript", "Git"],
+      "highlights": [
+        "Used a smaller version of Akoya's node-based system for composable sequences when making cutscenes, where each sequence was a list of behavior nodes ran sequentially",
+        "The dialogue system was data-driven, with a textbox component that took dialogue data such as the voice audio to play and the list of individual dialogue pieces to run sequentially",
+        "Game text is able to accept wildcard text to replace depending on different conditions. For example, controls text would automatically change depending on the device used"
+      ],
+      "features": [
+        "Fight through the streets at night, defeating the Muffin Man's cursed pastries",
+        "Use punches and combos, as well as the blueberry projectile powerup",
+        "Retro-styled cinematic experience in the opening and ending scenes"
+      ],
+      "jam": {
+        "name": "NESJam 2026",
+        "theme": "Horrible night to have a curse",
+        "placement": null
+      },
+      "team": {
+        "composition": "9 people (mid-sized team)",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Programming", "url": null },
+          { "name": "Robyn_cvh", "role": "Programming, Writing, Music, Art, Font, VO", "url": "https://robyn-cvh.itch.io/" },
+          { "name": "skigothy", "role": "Programming", "url": "https://skigothy.itch.io/" },
+          { "name": "nightshadov", "role": "Programming", "url": "https://nightshadov.itch.io/" },
+          { "name": "Kate Jacobs / cakeatjobs", "role": "Music", "url": "https://www.instagram.com/cakeatjobs/" },
+          { "name": "Bruna Teixeira / apixelnoob", "role": "Art", "url": "https://www.instagram.com/apixelnoob" },
+          { "name": "Wateronix", "role": "Art", "url": null },
+          { "name": "Aiden Call", "role": "VO", "url": null },
+          { "name": "Reshel Mae", "role": "VO", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/projects/drury-lane-damage/hero.png", "alt": "Drury Lane Damage: game logo" },
+        "screenshots": [
+          { "src": "/media/projects/drury-lane-damage/screenshot-1.jpeg", "alt": "Drury Lane Damage: opening sequence" },
+          { "src": "/media/projects/drury-lane-damage/screenshot-2.jpeg", "alt": "Drury Lane Damage: gameplay" }
+        ],
+        "videos": []
+      },
+      "links": [
+        { "label": "Play on itch.io", "href": "https://robyn-cvh.itch.io/drury-lane-damage", "kind": "itch" }
+      ],
+      "whatILearned": "Implementing the dialogue system taught me about the challenges in integrating sound with moving text, as well as timing the two together. The resulting system made in the jam period definitely has room for improvement, but it is a solid start that worked well in the final product. Re-using the architectural form of Akoya's node based system for cutscene exposed a weakness in it: since it has to use scene nodes, it can be prone to usability issues when including references to things outside the root of the sequence. This can be mitigated with more careful scene architecture or by transforming the system into a truly data-driven one where all the configuration lives on a single object",
+      "featured": true,
+      "order": 0
+    },
+    {
+      "id": "akoya-and-the-lost-pearl",
+      "kind": "project",
+      "title": "Akoya and the Lost Pearl",
+      "role": "Programmer, Level Design",
+      "tagline": "A mermaid magical girl Metroidvania. 7th place out of 80 jam entries.",
+      "summary": "A mermaid magical girl Metroidvania built for Metroidvania Month Jam 31. Placed 7th out of 80 entries.",
+      "description": [
+        "Akoya is a mermaid who transforms between land and sea forms to navigate a sunlit beach and its dark underwater caves. Built in a month for Metroidvania Month Jam 31 (theme: Magical Girls), it placed 7th out of 80 entries.",
+        "I handled all programming and level design for a four-person team, architecting the state machine, FMOD audio integration, a custom water shader, and the dual-environment movement system that makes the transformation feel mechanically distinct rather than cosmetic."
+      ],
+      "genre": "2D Metroidvania",
+      "engineFamily": "godot",
+      "status": "prototype",
+      "statusLabel": "Prototype",
+      "dateLabel": "March 2026",
+      "sortDate": "2026-03",
+      "year": 2026,
+      "platforms": ["Windows", "macOS"],
+      "techStack": ["Godot 4.2", "GDScript", "FMOD", "Godot FMOD Extension", "Tiled", "Git"],
+      "highlights": [
+        "Node-based state machine used across the player character, all enemies, and interactables. New behaviors could be added mid-jam without touching unrelated code",
+        "Dual-environment movement: grounded combat mode and six-directional swim mode, each with separate physics, animation states, and hitbox behavior",
+        "FMOD integration via the Godot FMOD extension, with real-time crossfading between above-water and underwater soundscapes",
+        "Custom GLSL water shader",
+        "Level maps initially authored in Tiled, then migrated to Godot's native tilemap editor mid-project for better tooling in the final design stretch"
+      ],
+      "features": [
+        "Transform into a mermaid to swim underwater",
+        "Fight against crabs, bats, and an evil mermaid",
+        "Explore a gorgeous beach and dark caves"
+      ],
+      "jam": {
+        "name": "Metroidvania Month Jam 31",
+        "theme": "Magical Girls",
+        "placement": "7th out of 80"
+      },
+      "team": {
+        "composition": "4 people (small team)",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Programmer, Level Design", "url": null },
+          { "name": "Tandapata", "role": "Sound Designer", "url": null },
+          { "name": "painresidual", "role": "Composer", "url": null },
+          { "name": "Mytho_Condria", "role": "Artist, Animator", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/projects/akoya-and-the-lost-pearl/hero.png", "alt": "Akoya and the Lost Pearl: mermaid protagonist navigating the beach" },
+        "screenshots": [
+          { "src": "/media/projects/akoya-and-the-lost-pearl/screenshot-1.jpeg", "alt": "Akoya and the Lost Pearl: screenshot 1" },
+          { "src": "/media/projects/akoya-and-the-lost-pearl/screenshot-2.jpeg", "alt": "Akoya and the Lost Pearl: screenshot 2" }
+        ],
+        "videos": []
+      },
+      "links": [
+        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/akoya-and-the-magical-pearl", "kind": "itch" },
+        { "label": "GitHub", "href": "https://github.com/miraclejester/mvm-31", "kind": "github" }
+      ],
+      "whatILearned": "Keeping state machine transitions explicit and data-driven paid off immediately when a new enemy type was needed two days before the deadline. FMOD is powerful but its Godot support was limited enough to block a web build entirely, which is worth factoring in early. Mid-jam tool migrations are a real risk: the Tiled-to-Godot switch was the right long-term call, but it should be a deliberate day-one task rather than absorbed as scope creep. The water shader was a first step into GLSL as there is more to build on there.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "forgefront",
+      "kind": "project",
+      "title": "ForgeFront",
+      "role": "Developer",
+      "tagline": "Autobattler RTS with roguelite elements. Destroy the Anomalous Hives across space and time.",
+      "summary": "Autobattler RTS with roguelite elements built for Brackeys Jam 2026.1. Placed 613th out of 1427 entries.",
+      "description": [
+        "ForgeFront blends autobattler, RTS, and roguelite mechanics. Set your factory build order, farm minerals, and push through procedurally generated maps. Between runs, minerals convert to chips that buy permanent upgrades.",
+        "Built in one week for Brackeys Jam 2026.1 by a large coordinated team of 16 credited contributors spanning directors, developers, artists, musicians, and SFX designers. Placed 613th out of 1427 entries. I contributed as one of five developers, implementing the in-run and persistent upgrades system, doing some of the bot behaviors, fixing UI bugs, implementing bot sfx and working through the integration challenges that come with a team this size under a one-week constraint."
+      ],
+      "genre": "Autobattler / RTS / Roguelite",
+      "engineFamily": "unity",
+      "status": "released",
+      "statusLabel": "Released",
+      "dateLabel": "March 2026",
+      "sortDate": "2026-03",
+      "year": 2026,
+      "platforms": ["WebGL"],
+      "techStack": ["Unity", "C#", "Git", "Git LFS"],
+      "highlights": [
+        "In-run upgrade systems and permanent chip-based progression between runs",
+        "Procedurally generated maps supporting the roguelite run structure",
+        "Systems-heavy architecture designed so five developers could contribute in parallel",
+        "Cross-functional coordination across developers, directors, artists, and SFX under a one-week deadline"
+      ],
+      "features": [
+        "RTS and Autobattler combination",
+        "Roguelike runs coupled with permanent upgrades"
+      ],
+      "jam": {
+        "name": "Brackeys Jam 2026.1",
+        "theme": null,
+        "placement": "613th out of 1427"
+      },
+      "team": {
+        "composition": "16 people (large team)",
+        "credits": [
+          { "name": "Ben \"Cogz\" Wilson", "role": "Game Director / Creative Director", "url": null },
+          { "name": "Ziro", "role": "Assistant Creative Director", "url": null },
+          { "name": "Tyler \"Shulfo\" Baylson", "role": "Technical Director", "url": null },
+          { "name": "Paige \"Momster\" Cochran", "role": "Promotional Director", "url": null },
+          { "name": "Jose Montenegro", "role": "Developer", "url": null },
+          { "name": "Tyler \"Mr Hatt\" Russell", "role": "Developer", "url": null },
+          { "name": "maddie", "role": "Developer", "url": null },
+          { "name": "cat", "role": "Developer", "url": null },
+          { "name": "HavelSpear", "role": "Developer", "url": null },
+          { "name": "ARTIFEX", "role": "2D Art", "url": null },
+          { "name": "Blades", "role": "2D Art", "url": null },
+          { "name": "Jeremias", "role": "2D Art", "url": null },
+          { "name": "megamk", "role": "2D Art", "url": null },
+          { "name": "JustSomePikachu", "role": "Music", "url": null },
+          { "name": "Haarom", "role": "SFX", "url": null },
+          { "name": "Oliver Mena", "role": "SFX", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/projects/forgefront/hero.png", "alt": "ForgeFront: factory robots battling enemies" },
+        "screenshots": [
+          { "src": "/media/projects/forgefront/s1.png", "alt": "ForgeFront: screenshot 1" },
+          { "src": "/media/projects/forgefront/s2.png", "alt": "ForgeFront: screenshot 2" },
+          { "src": "/media/projects/forgefront/s3.png", "alt": "ForgeFront: screenshot 3" }
+        ],
+        "videos": []
+      },
+      "links": [
+        { "label": "Play on itch.io", "href": "https://amorphousartsstudio.itch.io/forgefront", "kind": "itch" }
+      ],
+      "whatILearned": "Managing a large team under a one-week deadline is primarily a systems design problem: the game needs to be architected so that everyone can contribute in parallel without constant integration pain. The main lesson was that upfront system planning pays off disproportionately at this scale. Time invested on day one saves multiples later. The second half of the project was largely integration work, and the clearest takeaway is that more deliberate planning at the start would have made that phase significantly smoother. On the other hand, I was able to code a roguelike upgrade system that worked in a run-only setting as well as persistently, which was a great learning experience.",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "id": "vizard",
+      "kind": "project",
+      "title": "VIZARD",
+      "role": "Programmer, Main Designer",
+      "tagline": "A hacker-themed mystery game. Uncover a company's secrets through a Linux-style terminal.",
+      "summary": "A hacker-themed mystery game built for Global Game Jam 2026, now in continued development. Uncover a company's secrets through a Linux-style terminal.",
+      "description": [
+        "VIZARD is a mystery game inspired by S.P.L.I.T. and The Rootrees are Dead. You play a hacker-for-hire tasked with exposing a mysterious company by connecting to employee workstations, reading private files, and piecing together the truth from internal chats and documents.",
+        "First built in one week for Global Game Jam 2026, the game is now in continued post-jam development. The central interface is a faithful Linux-style console the player uses to navigate the company's network. I served as both lead programmer and primary designer, writing the puzzles and dialogue while building the data-driven architecture that underlies the terminal."
+      ],
+      "genre": "Mystery / Puzzle",
+      "engineFamily": "unity",
+      "status": "in-development",
+      "statusLabel": "In Development",
+      "dateLabel": "January 2026",
+      "sortDate": "2026-01",
+      "year": 2026,
+      "platforms": ["Windows", "Web (planned)"],
+      "techStack": ["Unity", "C#", "Blender", "Git"],
+      "highlights": [
+        "Data-driven terminal system: console commands, file system, employee profiles, and chat logs are all defined in data - adding new content requires no code changes",
+        "Localization pipeline using Unity's table system connected to an external Google Sheet for content management",
+        "Ongoing post-jam development expanding the design and asset management systems"
+      ],
+      "features": [
+        "Faithful simulation of a Linux-style console with many familiar commands",
+        "Awesome retro aesthetic in a modern world",
+        "Intriguing story that promises more than what initially seems"
+      ],
+      "jam": {
+        "name": "Global Game Jam 2026",
+        "theme": null,
+        "placement": null
+      },
+      "team": {
+        "composition": "4 people (small team)",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Programmer, Main Designer", "url": null },
+          { "name": "Cristian Medina", "role": "Programmer, Technical Artist", "url": null },
+          { "name": "Kenxfive", "role": "Programmer", "url": null },
+          { "name": "DeathMetal", "role": "Miscellaneous Support", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/projects/vizard/hero.png", "alt": "VIZARD: hacker terminal interface" },
+        "screenshots": [
+          { "src": "/media/projects/vizard/mission.png", "alt": "VIZARD: mission briefing screen" },
+          { "src": "/media/projects/vizard/chat.png", "alt": "VIZARD: internal company chat" },
+          { "src": "/media/projects/vizard/file.png", "alt": "VIZARD: file system view" }
+        ],
+        "videos": [
+          { "src": "/media/projects/vizard/cutscene.mp4", "alt": "VIZARD: cutscene", "poster": null },
+          { "src": "/media/projects/vizard/gameplay.mp4", "alt": "VIZARD: gameplay", "poster": null }
+        ]
+      },
+      "links": [
+        { "label": "View on GGJ", "href": "https://globalgamejam.org/games/2026/vizard-2", "kind": "other" }
+      ],
+      "whatILearned": "This was the first project where design ownership was the primary creative responsibility. The data-driven architecture meant the terminal could be extended without touching code, which proved valuable when scope grew post-jam. Working on localization via Unity's table and Google Sheet pipeline added a practical production skill that carries into larger projects.",
+      "featured": true,
+      "order": 3
+    },
+    {
+      "id": "dragon-warrior-nes-clone",
+      "kind": "project",
+      "title": "Dragon Warrior NES Clone",
+      "role": "Sole Developer",
+      "tagline": "A faithful 1-to-1 clone of Dragon Warrior I for the NES, built in Godot for fun and practice.",
+      "summary": "A faithful 1-to-1 clone of Dragon Warrior I for the NES, built solo in Godot 4 for fun and practice.",
+      "description": [
+        "A near-complete recreation of Dragon Warrior I (Dragon Quest in Japan) built solo in Godot 4 over roughly a month. The only addition beyond the original is a debug menu with cheats and skips for development convenience.",
+        "The focus was on faithful reproduction: the turn-based battle system, overworld navigation, shop and inn interactions, save files, and the 8-bit visual effects (fade transitions, UI flicker) that define the NES era aesthetic. Playable directly in the browser with no download required."
+      ],
+      "genre": "Turn-based JRPG",
+      "engineFamily": "godot",
+      "status": "released",
+      "statusLabel": "Released",
+      "dateLabel": "April 2025",
+      "sortDate": "2025-04",
+      "year": 2025,
+      "platforms": ["Web"],
+      "techStack": ["Godot 4", "GDScript", "Git"],
+      "highlights": [
+        "Battle system built on an MVC architecture. View updates the model through controller commands and the model returns a list of battle events for the view to consume. Designed to scale to more complex turn-based systems or a client-server setup",
+        "8-bit era shaders and UI effects: full-screen fadeout, text rendering, and period-accurate visual behavior",
+        "Progress saving on WebGL via browser local storage",
+        "Debug menu with cheats and skips not present in the original"
+      ],
+      "features": [
+        "Full recreation of overworld, towns, dungeons, shops, inns, and the complete quest structure"
+      ],
+      "jam": null,
+      "team": {
+        "composition": "Solo",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Sole Developer", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/projects/dragon-warrior-nes-clone/hero.png", "alt": "Dragon Warrior NES Clone: overworld view" },
+        "screenshots": [
+          { "src": "/media/projects/dragon-warrior-nes-clone/s1.png", "alt": "Dragon Warrior NES Clone: screenshot 1" },
+          { "src": "/media/projects/dragon-warrior-nes-clone/s2.png", "alt": "Dragon Warrior NES Clone: screenshot 2" }
+        ],
+        "videos": []
+      },
+      "links": [
+        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/dragon-warrior-nes-clone", "kind": "itch" },
+        { "label": "GitHub", "href": "https://github.com/miraclejester/clones-dq1", "kind": "github" }
+      ],
+      "whatILearned": "The MVC pattern for turn-based systems was the key engineering insight here: the view sends commands to the controller, the controller updates the model, and the model emits a flat list of battle events for the view to replay in sequence. This decoupling makes the system straightforward to extend and naturally supports a client-server split if needed. Writing 8-bit era shaders and UI code was a satisfying exercise in deliberate platform constraints.",
+      "featured": true,
+      "order": 4
+    },
+    {
+      "id": "cursed-ruby",
+      "kind": "project",
+      "title": "Cursed Ruby",
+      "role": "Sole Programmer",
+      "tagline": "A Castlevania-flavored Metroidvania built solo. 6th place out of 82 jam entries.",
+      "summary": "A Castlevania-flavored Metroidvania built solo for Metroidvania Month Jam 17. Placed 6th out of 82 entries.",
+      "description": [
+        "Ruby is cursed and on a deadline. She has weeks to storm her enemy's gothic castle and break the hex before it kills her. Cursed Ruby is a Castlevania-inspired Metroidvania built entirely solo for Metroidvania Month Jam 17, where it placed 6th out of 82 entries.",
+        "As the sole programmer, I owned every system: movement, enemy AI, progression gating, save state, UI, and audio wiring while coordinating freelance contributors across art, music, SFX, and voice on a jam schedule. The state machine and core systems built here became the direct foundation for Akoya and the Lost Pearl, surviving the transition to Godot 4."
+      ],
+      "genre": "2D Metroidvania",
+      "engineFamily": "godot",
+      "status": "released",
+      "statusLabel": "Released",
+      "dateLabel": "September 2022",
+      "sortDate": "2022-09",
+      "year": 2022,
+      "platforms": ["Windows", "WebGL"],
+      "techStack": ["Godot 3", "GDScript", "Aseprite", "Git"],
+      "highlights": [
+        "Reusable state machine and physics architecture carried forward into future projects",
+        "Tilemap-based level system with ability-gated progression",
+        "Progression save system",
+        "WebGL build target alongside Windows"
+      ],
+      "features": [
+        "Castlevania-inspired enemies and environments, courtesy of Ansimuz",
+        "Wall-sticking spear ability: fires into walls and stays there, becoming a temporary platform that creates puzzle-platformer moments inside an action game",
+        "Localized air dash: momentum-independent aerial burst that functions as precise repositioning rather than room-crossing flight"
+      ],
+      "jam": {
+        "name": "Metroidvania Month Jam 17",
+        "theme": null,
+        "placement": "6th out of 82"
+      },
+      "team": {
+        "composition": "Solo",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Sole Programmer", "url": null },
+          { "name": "Nyebe", "role": "Title screen, game over, and intro art", "url": null },
+          { "name": "Ansimuz", "role": "Environment and character sprites", "url": "https://ansimuz.itch.io/" },
+          { "name": "Steven Melin", "role": "Music", "url": "https://www.gamedevmarket.net/member/stevenmelin/" },
+          { "name": "Kronbits", "role": "Sound effects", "url": "https://kronbits.itch.io" },
+          { "name": "Leohpaz", "role": "Sound effects", "url": "https://leohpaz.itch.io/" },
+          { "name": "Cici Fyre", "role": "Voices", "url": "https://cicifyre.itch.io/" }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/projects/cursed-ruby/hero.png", "alt": "Cursed Ruby: protagonist Ruby in the gothic castle environment" },
+        "screenshots": [
+          { "src": "/media/projects/cursed-ruby/screenshots/gameplay.png", "alt": "Cursed Ruby: gameplay screenshot" },
+          { "src": "/media/projects/cursed-ruby/screenshots/cutscene.png", "alt": "Cursed Ruby: cutscene screenshot" },
+          { "src": "/media/projects/cursed-ruby/screenshots/spear.png", "alt": "Cursed Ruby: wall-sticking spear ability" }
+        ],
+        "videos": [
+          { "src": "/media/projects/cursed-ruby/video/dash.mp4", "alt": "Cursed Ruby: air dash ability showcase", "poster": null }
+        ]
+      },
+      "links": [
+        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/cursed-ruby", "kind": "itch" },
+        { "label": "GitHub", "href": "https://github.com/miraclejester/metroidvaniamonthXVII", "kind": "github" }
+      ],
+      "whatILearned": "This project is where Godot became a genuine tool rather than an experiment. State machines, physics, tilemaps and more settled into reusable patterns that survived the engine upgrade to Godot 4. Designing unconventional abilities led to level design challenges where I needed to provide compelling uses as well as making the abilities easy to understand. Moves that felt obvious to me as the programmer were invisible to fresh players until the environment forced experimentation.",
+      "featured": true,
+      "order": 5
+    },
+    {
+      "id": "jumping-jack",
+      "kind": "project",
+      "title": "Jumping Jack",
+      "role": "Sole Developer",
+      "tagline": "A faithful Windows remake of the classic Jumping Jack ZX Spectrum arcade game.",
+      "summary": "A faithful Windows remake of the classic Jumping Jack ZX Spectrum arcade game, built as a reverse-engineering exercise.",
+      "description": [
+        "A remake of Jumping Jack, the 1983 ZX Spectrum arcade game originally published by Imagine Software. The original's challenge is preserved intact: navigate upward through rows of platforms, clear gaps with precise jumps, and avoid enemies with deliberately minimal controls (arrow keys to move and jump, Enter to start).",
+        "The project began as a personal exercise in extracting the design of a classic game through reverse engineering and reproducing it faithfully. Available on itch.io as a free Windows download."
+      ],
+      "genre": "Arcade",
+      "engineFamily": "unity",
+      "status": "released",
+      "statusLabel": "Released",
+      "dateLabel": "June 2019",
+      "sortDate": "2019-06",
+      "year": 2019,
+      "platforms": ["Windows"],
+      "techStack": ["Unity", "C#"],
+      "highlights": [
+        "Minimal, intentional control scheme matching the original (arrow keys + Enter)",
+        "Reverse-engineered design from playing the original"
+      ],
+      "features": [
+        "Faithful recreation of the Jumping Jack ZX Spectrum arcade game, including the small lore between levels"
+      ],
+      "jam": null,
+      "team": {
+        "composition": "Solo",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Sole Developer", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/projects/jumping-jack/hero.png", "alt": "Jumping Jack: platform climbing gameplay" },
+        "screenshots": [
+          { "src": "/media/projects/jumping-jack/title.png", "alt": "Jumping Jack: title screen" },
+          { "src": "/media/projects/jumping-jack/gameplay.png", "alt": "Jumping Jack: gameplay" },
+          { "src": "/media/projects/jumping-jack/level.png", "alt": "Jumping Jack: level view" },
+          { "src": "/media/projects/jumping-jack/gameover.png", "alt": "Jumping Jack: game over screen" }
+        ],
+        "videos": []
+      },
+      "links": [
+        { "label": "Download on itch.io", "href": "https://miraclejester.itch.io/jumping-jack", "kind": "itch" },
+        { "label": "GitHub", "href": "https://github.com/jmontene/JumpingJack", "kind": "github" }
+      ],
+      "whatILearned": "Remaking a classic is a useful design exercise precisely because you cannot take shortcuts: every mechanic has to be understood well enough to reproduce it accurately. Reverse-engineering how the original handled platform rows, enemy movement, and gap detection built an intuition for classic arcade design principles that is harder to acquire from reading about them.",
+      "featured": true,
+      "order": 6
+    },
+    {
+      "id": "princess-showdown",
+      "kind": "project",
+      "title": "Princess Showdown",
+      "role": "Programmer, Designer",
+      "tagline": "A 2D Unity platformer for IGMC 2018. Switch between two magic forms to escape a rival's dungeon.",
+      "summary": "A 2D Unity platformer for IGMC 2018. Placed 43rd out of 281 in the People's Choice Vote.",
+      "description": [
+        "Princess Showdown is a 2D platformer submitted to the Indie Game Making Contest 2018, built solo in Unity. Princess Rose has been thrown into her rival Serena's dungeon and must fight her way back to reclaim her crown. The core mechanic is a dual magic form system: players switch between two distinct modes to handle different enemy types and platforming hazards, with roughly 30 minutes of content from entry to crown.",
+        "It placed 43rd out of 281 in the People's Choice Vote. Keyboard and gamepad are both supported, with gamepad recommended. I published a Prototype Postmortem devlog after release, reflecting on what worked and what did not."
+      ],
+      "genre": "2D Platformer",
+      "engineFamily": "unity",
+      "status": "released",
+      "statusLabel": "Released",
+      "dateLabel": "December 2018",
+      "sortDate": "2018-12",
+      "year": 2018,
+      "platforms": ["Windows"],
+      "techStack": ["Unity", "C#"],
+      "highlights": [
+        "Two switchable magic forms that change combat approach and traversal options",
+        "Skeletal 2D animation for the player character",
+        "Virtual cameras and parallax backgrounds for environmental depth",
+        "Event sequencing system for in-gameplay cutscenes",
+        "Prototype Postmortem devlog published post-release"
+      ],
+      "features": [
+        "Enemy encounters and environmental hazards",
+        "Approximately 30 minutes of gameplay",
+        "Keyboard and gamepad support (gamepad recommended)"
+      ],
+      "jam": {
+        "name": "Indie Game Making Contest 2018",
+        "theme": null,
+        "placement": "43rd out of 281 (People's Choice Vote)"
+      },
+      "team": {
+        "composition": "Solo",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Programmer, Designer", "url": null },
+          { "name": "Sterndecorum", "role": "Title Art, Sprites, Voices", "url": null },
+          { "name": "Samuel Anim-Addo", "role": "Backgrounds and Tiles", "url": null },
+          { "name": "CodeManu", "role": "Pixel Effects", "url": "https://codemanu.itch.io/" },
+          { "name": "Cethiel", "role": "Light Magic Effect", "url": "https://opengameart.org/users/cethiel" },
+          { "name": "Smileymensch", "role": "Heart UI Graphic", "url": "https://opengameart.org/users/smileymensch" },
+          { "name": "Sirkoto51", "role": "Music", "url": "https://freesound.org/people/Sirkoto51/" },
+          { "name": "Robinhood76", "role": "SFX", "url": null },
+          { "name": "Headphaze", "role": "SFX", "url": null },
+          { "name": "elmasmalo1", "role": "SFX", "url": null },
+          { "name": "qubodup", "role": "SFX", "url": null },
+          { "name": "TheAtomicBrain", "role": "SFX", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/projects/princess-showdown/hero.png", "alt": "Princess Showdown: Princess Rose in combat" },
+        "screenshots": [
+          { "src": "/media/projects/princess-showdown/screenshot-1.png", "alt": "Princess Showdown: screenshot 1" },
+          { "src": "/media/projects/princess-showdown/screenshot-2.png", "alt": "Princess Showdown: screenshot 2" }
+        ],
+        "videos": []
+      },
+      "links": [
+        { "label": "Download on itch.io", "href": "https://miraclejester.itch.io/princess-showdown", "kind": "itch" },
+        { "label": "Prototype Postmortem", "href": "https://miraclejester.itch.io/princess-showdown/devlog/59033/prototype-postmortem", "kind": "devlog" }
+      ],
+      "whatILearned": "This project introduced several technical challenges tackled for the first time: skeletal 2D animation, virtual cameras, parallax backgrounds, and event sequencing for cutscenes that occur mid-gameplay. The on-the-fly ability switching also required careful state management to keep transitions clean and responsive. Writing a public postmortem after release added a layer of reflection that sharpened the ability to assess design decisions critically.",
+      "featured": true,
+      "order": 7
+    },
+    {
+      "id": "dinosaur-rain",
+      "kind": "project",
+      "title": "Dinosaur Rain",
+      "role": "Programmer",
+      "tagline": "A frantic dinosaur invasion action game built for GBCJAM #11 in a single day.",
+      "summary": "A frantic dinosaur invasion action game built for GBCJAM #11 in a single day. Theme: Frantic.",
+      "description": [
+        "Dinosaur Rain is an action game built for GBCJAM #11, a game jam for Game Development students at George Brown College. The jam's theme was \"Frantic,\" and the game delivers on it directly: dinosaurs rain from the sky and players must survive the onslaught.",
+        "Built in Unity by a three-person team in a single day, the result demonstrates solid scope judgment - a simple, focused premise that was achievable under a one-day constraint and communicates the theme without ambiguity. Playable in the browser or downloadable for Windows."
+      ],
+      "genre": "Action",
+      "engineFamily": "unity",
+      "status": "released",
+      "statusLabel": "Released",
+      "dateLabel": "February 2018",
+      "sortDate": "2018-02",
+      "year": 2018,
+      "platforms": ["WebGL", "Windows"],
+      "techStack": ["Unity", "C#"],
+      "highlights": [
+        "Jam theme \"Frantic\" directly expressed through high-density dinosaur spawning and survival pressure",
+        "Completed in a single day by a three-person student team",
+        "Browser-playable via HTML5 and downloadable Windows build"
+      ],
+      "features": [
+        "Frantic action gameplay centered on a dinosaur invasion theme",
+        "Browser-playable via HTML5",
+        "Downloadable Windows build"
+      ],
+      "jam": {
+        "name": "GBCJAM #11",
+        "theme": "Frantic",
+        "placement": null
+      },
+      "team": {
+        "composition": "3 people (small team)",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Programmer", "url": null },
+          { "name": "Hercules Dias", "role": "Programmer", "url": null },
+          { "name": "Viviana Bazalar", "role": "Artist", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/projects/dinosaur-rain/hero.png", "alt": "Dinosaur Rain: dinosaurs raining from the sky" },
+        "screenshots": [
+          { "src": "/media/projects/dinosaur-rain/title.png", "alt": "Dinosaur Rain: title screen" },
+          { "src": "/media/projects/dinosaur-rain/instructions.png", "alt": "Dinosaur Rain: instructions screen" },
+          { "src": "/media/projects/dinosaur-rain/gameplay.png", "alt": "Dinosaur Rain: gameplay screenshot" },
+          { "src": "/media/projects/dinosaur-rain/gameover.png", "alt": "Dinosaur Rain: game over screen" }
+        ],
+        "videos": []
+      },
+      "links": [
+        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/dinosaur-rain", "kind": "itch" },
+        { "label": "GitHub", "href": "https://github.com/jmontene/GBCJAM_2018", "kind": "github" }
+      ],
+      "whatILearned": "A one-day jam demands a design that can be finished in one day. The main skill on display here is scope judgment: identifying a premise simple enough to build completely under the constraint, while still being coherent and fun. The team hit that target, which is the whole point of a short jam.",
+      "featured": true,
+      "order": 8
+    },
+    {
+      "id": "simple-qbert",
+      "kind": "project",
+      "title": "Simple QBert",
+      "role": "Sole Developer",
+      "tagline": "A browser-playable Unity recreation of Q*bert's first level. Built as a class project in two days, which led directly to a professional role.",
+      "summary": "A browser-playable Unity recreation of Q*bert's first level, built as a class project in two days. Led directly to a professional role at Illuminia Studios.",
+      "description": [
+        "Simple QBert recreates the first level of Q*bert, the 1982 Gottlieb arcade classic. The original is a puzzle-action game where the player hops across an isometric pyramid of cubes, changing their colors while avoiding enemies.",
+        "This was developed as a class assignment with a two-week window. It was completed in two days. That speed and fidelity led directly to a recommendation from the teacher, which landed me a position at Illuminia Studios. Playable free in the browser, no download needed."
+      ],
+      "genre": "Arcade / Puzzle",
+      "engineFamily": "unity",
+      "status": "released",
+      "statusLabel": "Released",
+      "dateLabel": "February 2018",
+      "sortDate": "2018-02",
+      "year": 2018,
+      "platforms": ["WebGL"],
+      "techStack": ["Unity", "C#"],
+      "highlights": [
+        "Local Leaderboards",
+        "Recreated enemy behavior and color-change puzzle mechanic from the 1982 original",
+        "Completed in 2 days against a 2-week class deadline"
+      ],
+      "features": [
+        "Browser-playable clone of Q*bert's first level",
+        "Faithful reproduction of the cult classic arcade puzzle-action gameplay",
+        "No download required - runs directly in the browser"
+      ],
+      "jam": null,
+      "team": {
+        "composition": "Solo",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Sole Developer", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/projects/simple-qbert/hero.png", "alt": "Simple QBert: isometric cube-hopping gameplay" },
+        "screenshots": [
+          { "src": "/media/projects/simple-qbert/title.png", "alt": "Simple QBert: title screen" },
+          { "src": "/media/projects/simple-qbert/instructions.png", "alt": "Simple QBert: instructions screen" },
+          { "src": "/media/projects/simple-qbert/gameover.png", "alt": "Simple QBert: game over screen" }
+        ],
+        "videos": []
+      },
+      "links": [
+        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/simple-qbert", "kind": "itch" },
+        { "label": "GitHub", "href": "https://github.com/jmontene/Qbert", "kind": "github" }
+      ],
+      "whatILearned": "Reverse-engineering a classic game forces you to understand its systems at a fundamental level. The isometric cube-hopping, enemy routing, and color state logic all had to be understood precisely to reproduce them correctly. Finishing well ahead of schedule demonstrated that thorough problem decomposition matters more than time budgeted, and the professional opportunity that followed reinforced that publicly sharing quality work opens doors.",
+      "featured": true,
+      "order": 9
+    },
+    {
+      "id": "hands-off",
+      "kind": "project",
+      "title": "Hands Off",
+      "role": "Programmer, Designer",
+      "tagline": "An uncomfortable hand-scratching action/shooter. Built in one day for GBCJAM #9 at George Brown College.",
+      "summary": "An uncomfortable hand-scratching action/shooter built in one day for GBCJAM #9. Theme: Uncomfortable.",
+      "description": [
+        "Hands Off is an action/shooter created for GBCJAM #9 at George Brown College, where I studied Game Programming. The jam theme was \"Uncomfortable,\" and the game commits fully to that: the mechanic is built around pushing away hands that are scratching a blackboard",
+        "Built by a two-person team in a single day. Playable directly in the browser via HTML5."
+      ],
+      "genre": "Action / Shooter",
+      "engineFamily": "unity",
+      "status": "released",
+      "statusLabel": "Released",
+      "dateLabel": "August 2017",
+      "sortDate": "2017-08",
+      "year": 2017,
+      "platforms": ["WebGL"],
+      "techStack": ["Unity", "C#"],
+      "highlights": [
+        "Completed in a single day by a two-person team",
+        "Browser-playable via HTML5"
+      ],
+      "features": [
+        "Action/shooter gameplay with an unconventional hand-scratching premise"
+      ],
+      "jam": {
+        "name": "GBCJAM #9",
+        "theme": "Uncomfortable",
+        "placement": null
+      },
+      "team": {
+        "composition": "2 people (small team)",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Programmer and Designer", "url": null },
+          { "name": "jamiecch", "role": "Programmer and Artist", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/projects/hands-off/hero.png", "alt": "Hands Off: blackboard scratching gameplay" },
+        "screenshots": [
+          { "src": "/media/projects/hands-off/screenshot-1.png", "alt": "Hands Off: screenshot 1" },
+          { "src": "/media/projects/hands-off/screenshot-2.png", "alt": "Hands Off: screenshot 2" },
+          { "src": "/media/projects/hands-off/screenshot-3.png", "alt": "Hands Off: screenshot 3" }
+        ],
+        "videos": []
+      },
+      "links": [
+        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/hands-off-gbc", "kind": "itch" },
+        { "label": "GitHub", "href": "https://github.com/jmontene/hands-off", "kind": "github" }
+      ],
+      "whatILearned": "This was the first game jam experience at George Brown College. I learned that a simple, clearly scoped game can be built and shipped in one day if the design is disciplined from the start. Getting something complete and playable under that constraint is the whole goal.",
+      "featured": true,
+      "order": 10
+    },
+    {
+      "id": "chicken-feud",
+      "kind": "project",
+      "title": "Chicken Feud",
+      "role": "Programmer, Designer",
+      "tagline": "A local two-player puzzle game for the Venezuela Duel Jam. Rescue a princess or tempt the hero with roasted chicken.",
+      "summary": "A local two-player puzzle game for the Venezuela Duel Jam. Asymmetric: one player rescues a princess, the other tempts the hero with roasted chicken.",
+      "description": [
+        "Chicken Feud is a local multiplayer puzzle game made for the Venezuela Duel Jam. It was heavily inspired by Tetris Attack on the SNES. Sir Areponcio is on his way to rescue the princess, but an evil sorcerer keeps placing irresistible roasted chicken in his path. One player is the princess, pulling the hero forward. The other is the sorcerer, derailing him with temptation.",
+        "Two players, same machine, presented in Spanish. The technical challenge was creating a puzzle interface that worked at any screen resolution, with competing player goals legible simultaneously on one display. Playable in the browser."
+      ],
+      "genre": "Local Multiplayer / Puzzle",
+      "engineFamily": "unity",
+      "status": "released",
+      "statusLabel": "Released",
+      "dateLabel": "July 2015",
+      "sortDate": "2015-07",
+      "year": 2015,
+      "platforms": ["WebGL"],
+      "techStack": ["Unity", "C#"],
+      "highlights": [
+        "Local multiplayer: one player pursues rescue, the other plays saboteur",
+        "Puzzle interface built to scale cleanly across screen resolutions",
+        "Browser-playable via HTML5"
+      ],
+      "features": [
+        "Design inspired by Tetris Attack",
+        "Local two-player competitive puzzle gameplay on the same machine",
+        "Quirky chicken-themed narrative and humor"
+      ],
+      "jam": {
+        "name": "Venezuela Duel Jam",
+        "theme": "Roasted Chicken",
+        "placement": null
+      },
+      "team": {
+        "composition": "2 people (small team)",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Programming and Design", "url": null },
+          { "name": "sterndecorum", "role": "Art", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/projects/chicken-feud/hero.png", "alt": "Chicken Feud: puzzle game interface" },
+        "screenshots": [
+          { "src": "/media/projects/chicken-feud/title.png", "alt": "Chicken Feud: title screen" },
+          { "src": "/media/projects/chicken-feud/gameplay.png", "alt": "Chicken Feud: gameplay" },
+          { "src": "/media/projects/chicken-feud/win.png", "alt": "Chicken Feud: win screen" }
+        ],
+        "videos": []
+      },
+      "links": [
+        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/chicken-feud", "kind": "itch" }
+      ],
+      "whatILearned": "The design was heavily inspired by Tetris Attack, which meant studying how that kind of grid-based interface is constructed before building it. The most technically satisfying outcome was a resolution-independent puzzle layout which is a non-trivial UI engineering problem when the grid has to feel tight and precise.",
+      "featured": true,
+      "order": 11
+    },
+    {
+      "id": "stink-bomb-revenge",
+      "kind": "project",
+      "title": "Stink Bomb Revenge",
+      "role": "Programmer",
+      "tagline": "A browser-based Unity puzzle prototype built on-site over three days at Global Game Jam 2015.",
+      "summary": "A browser-based Unity puzzle prototype built on-site over three days at Global Game Jam 2015.",
+      "description": [
+        "Stink Bomb Revenge is a puzzle-survival prototype inspired by WarioWare and playable directly in the browser. A bully has stumbled into a stinky trap, and the player must figure out the bomb's logic and survive as long as possible before it triggers. The game layers puzzle-solving with a time-pressure survival challenge, requiring players to read and respond to the trap's mechanics under increasing urgency.",
+        "It was built by an 8-person team working on-site for three straight days at the Global Game Jam 2015, my first game jam experience. Built in Unity, compiled to HTML5."
+      ],
+      "genre": "Puzzle / Survival",
+      "engineFamily": "unity",
+      "status": "prototype",
+      "statusLabel": "Prototype",
+      "dateLabel": "January 2015",
+      "sortDate": "2015-01",
+      "year": 2015,
+      "platforms": ["WebGL"],
+      "techStack": ["Unity", "C#"],
+      "highlights": [
+        "Collaborative combination of mini-games coded by different developers integrated into one experience",
+        "Browser-playable via WebGL",
+        "Completed on-site over three consecutive days at Global Game Jam 2015"
+      ],
+      "features": [
+        "Browser-playable with no download required",
+        "Timed survival challenge against the bomb's mechanisms",
+        "Prototype-level scope with focused design"
+      ],
+      "jam": {
+        "name": "Global Game Jam 2015",
+        "theme": null,
+        "placement": null
+      },
+      "team": {
+        "composition": "8 people (small team)",
+        "credits": [
+          { "name": "Jose Montenegro", "role": "Programmer", "url": null },
+          { "name": "Juan Ascanio", "role": "Programmer", "url": null },
+          { "name": "Carlos Cruz", "role": "Programmer", "url": null },
+          { "name": "Mauricio Labarca", "role": "Programmer", "url": null },
+          { "name": "Luis Miranda", "role": "Programmer", "url": null },
+          { "name": "Manuel Berbin", "role": "Art", "url": null },
+          { "name": "Cristian Medina", "role": "Art", "url": null },
+          { "name": "Andrea Vela", "role": "Art", "url": null }
+        ]
+      },
+      "media": {
+        "hero": { "src": "/media/projects/stink-bomb-revenge/hero.png", "alt": "Stink Bomb Revenge: puzzle bomb interface" },
+        "screenshots": [
+          { "src": "/media/projects/stink-bomb-revenge/cutscene.png", "alt": "Stink Bomb Revenge: cutscene" },
+          { "src": "/media/projects/stink-bomb-revenge/gameplay.png", "alt": "Stink Bomb Revenge: gameplay" }
+        ],
+        "videos": [
+          { "src": "https://www.youtube.com/embed/7QRPcJNFcwk", "alt": "Stink Bomb Revenge gameplay video", "poster": null }
+        ]
+      },
+      "links": [
+        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/stink-bomb-revenge", "kind": "itch" },
+        { "label": "Watch on YouTube", "href": "https://www.youtube.com/watch?v=7QRPcJNFcwk", "kind": "youtube" }
+      ],
+      "whatILearned": "This was the first game jam experience. Working on-site with a team for three straight days under a hard deadline is a different discipline from solo or remote development. Communication is king, integration problems surface faster, and shipping something coherent requires constant alignment. The experience established the fundamentals of jam-paced teamwork that I carried into every subsequent jam.",
+      "featured": true,
+      "order": 12
+    }
+  ]
+}
