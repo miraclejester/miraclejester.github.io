@@ -1,6 +1,7 @@
-import type { ReactNode } from "react";
+import { useEffect, type ReactNode } from "react";
 import { useParams, useLocation } from "react-router-dom";
-import { getEntry, sections, type EntryKind } from "@/data/types";
+import { getEntry, getTrack, sections, type EntryKind } from "@/data/types";
+import { useTrack } from "@/context/TrackContext";
 import NotFoundPage from "./NotFoundPage";
 import Container from "@/components/Container";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -52,15 +53,26 @@ export default function EntryPage() {
   const kind: EntryKind = pathname.startsWith("/experience")
     ? "experience"
     : "project";
+  const { setTrack } = useTrack();
 
-  if (!id) return <NotFoundPage />;
+  const entry = id ? getEntry(kind, id) : undefined;
 
-  const entry = getEntry(kind, id);
+  // Arriving from a shared link — or from the other track's listing —
+  // should leave the site showing the track this entry belongs to, so
+  // the header toggle and the breadcrumb's listing agree with it.
+  const entryTrack = entry?.track;
+  useEffect(() => {
+    if (entryTrack) setTrack(entryTrack);
+  }, [entryTrack, setTrack]);
+
   if (!entry) return <NotFoundPage />;
 
   const listingHref = kind === "experience" ? "/experience" : "/projects";
+  const trackSections = getTrack(entry.track)?.sections ?? sections;
   const listingLabel =
-    kind === "experience" ? sections.experience.title : sections.projects.title;
+    kind === "experience"
+      ? trackSections.experience.title
+      : trackSections.projects.title;
 
   const hasMedia =
     entry.media.screenshots.length > 0 || entry.media.videos.length > 0;

@@ -1,14 +1,14 @@
+import { useMemo } from "react";
 import { Link } from "react-router-dom";
-import { hero, about, contact, sections, sortedEntries } from "@/data/types";
+import { hero, about, contact, sortedEntries } from "@/data/types";
+import { useTrack, useTrackData } from "@/context/TrackContext";
 import Container from "@/components/Container";
 import Section from "@/components/Section";
 import EntryGrid from "@/components/EntryGrid";
 import SectionHeader from "@/components/SectionHeader";
 import SkillsPanel from "@/components/SkillsPanel";
+import TrackPicker from "@/components/TrackPicker";
 import Button from "@/components/Button";
-
-const featuredExperience = sortedEntries("experience").filter((e) => e.featured);
-const featuredProjects = sortedEntries("project").filter((e) => e.featured);
 
 function ViewAllLink({ to, children }: { to: string; children: string }) {
   return (
@@ -23,6 +23,18 @@ function ViewAllLink({ to, children }: { to: string; children: string }) {
 }
 
 export default function HomePage() {
+  const { track } = useTrack();
+  const trackData = useTrackData();
+
+  const featuredExperience = useMemo(
+    () => sortedEntries("experience", track).filter((e) => e.featured),
+    [track]
+  );
+  const featuredProjects = useMemo(
+    () => sortedEntries("project", track).filter((e) => e.featured),
+    [track]
+  );
+
   return (
     <main id="main-content">
       {/* ============================ HERO ============================ */}
@@ -73,6 +85,8 @@ export default function HomePage() {
                 </Button>
               ))}
             </div>
+
+            <TrackPicker />
           </div>
         </Container>
       </section>
@@ -81,8 +95,8 @@ export default function HomePage() {
       <Section id="experience" labelledBy="experience-heading" tone="surface">
         <SectionHeader
           id="experience-heading"
-          title={sections.experience.title}
-          blurb={sections.experience.blurb}
+          title={trackData.sections.experience.title}
+          blurb={trackData.sections.experience.blurb}
           action={<ViewAllLink to="/experience">View all</ViewAllLink>}
         />
         <EntryGrid entries={featuredExperience} />
@@ -92,8 +106,8 @@ export default function HomePage() {
       <Section id="projects" labelledBy="projects-heading">
         <SectionHeader
           id="projects-heading"
-          title={sections.projects.title}
-          blurb={sections.projects.blurb}
+          title={trackData.sections.projects.title}
+          blurb={trackData.sections.projects.blurb}
           action={<ViewAllLink to="/projects">View all</ViewAllLink>}
         />
         <EntryGrid entries={featuredProjects} />

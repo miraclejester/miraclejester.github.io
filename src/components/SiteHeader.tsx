@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { site } from "@/data/types";
 import Container from "./Container";
+import TrackToggle from "./TrackToggle";
 
 export default function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -80,6 +81,7 @@ export default function SiteHeader() {
           aria-label="Main navigation"
           className="hidden items-center gap-1 md:flex"
         >
+          <TrackToggle className="mr-3" />
           {site.nav.map((item) => {
             const active = isActive(item.href);
             return (
@@ -161,6 +163,17 @@ export default function SiteHeader() {
               );
             })}
           </nav>
+          {/* Rendered only while open: the panel is aria-hidden when
+              closed, and TrackToggle's buttons would otherwise stay
+              in the tab order behind it. */}
+          {menuOpen && (
+            <div className="flex items-center justify-between gap-4 border-t border-line-soft py-4">
+              <span className="text-sm font-medium text-fg-muted">
+                Showing
+              </span>
+              <TrackToggle size="md" />
+            </div>
+          )}
         </Container>
       </div>
     </header>

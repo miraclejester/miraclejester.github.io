@@ -6,6 +6,13 @@ export type EntryKind = "project" | "experience";
 
 export type EngineFamily = "godot" | "unity" | "web" | "other";
 
+/**
+ * The two bodies of work the site can be filtered to. Every entry
+ * belongs to exactly one; the visitor picks which one they are
+ * looking at (see context/TrackContext).
+ */
+export type TrackId = "web" | "game";
+
 export type EntryStatus =
   | "released"
   | "prototype"
@@ -42,6 +49,11 @@ export interface SiteData {
   footer: FooterData;
 }
 
+export interface TrackPickerData {
+  heading: string;
+  hint: string;
+}
+
 export interface HeroData {
   eyebrow: string;
   headline: string;
@@ -52,6 +64,7 @@ export interface HeroData {
     href: string;
     variant: CtaVariant;
   }>;
+  trackPicker: TrackPickerData;
 }
 
 export interface AboutData {
@@ -78,6 +91,15 @@ export interface SectionMeta {
 export interface SectionsData {
   experience: SectionMeta;
   projects: SectionMeta;
+}
+
+export interface TrackData {
+  id: TrackId;
+  label: string;
+  blurb: string;
+  stack: string[];
+  /** Section titles and blurbs used while this track is active. */
+  sections: SectionsData;
 }
 
 export interface MediaAsset {
@@ -123,6 +145,7 @@ export interface EntryLink {
 export interface Entry {
   id: string;
   kind: EntryKind;
+  track: TrackId;
   title: string;
   role: string | null;
   tagline: string;
@@ -154,6 +177,7 @@ export interface PortfolioData {
   about: AboutData;
   contact: ContactData;
   sections: SectionsData;
+  tracks: TrackData[];
   experience: Entry[];
   projects: Entry[];
 }
@@ -171,8 +195,14 @@ export const hero      = data.hero;
 export const about     = data.about;
 export const contact   = data.contact;
 export const sections  = data.sections;
+export const tracks    = data.tracks;
 export const projects  = data.projects;
 export const experience = data.experience;
+
+/** Track metadata by id. Returns undefined for an unknown id. */
+export function getTrack(id: TrackId): TrackData | undefined {
+  return data.tracks.find((t) => t.id === id);
+}
 
 /**
  * Look up a single entry by kind + id.
@@ -191,12 +221,14 @@ export function allEntries(): Entry[] {
 }
 
 /**
- * Entries of a given kind sorted reverse-chronologically.
+ * Entries of a given kind sorted reverse-chronologically, optionally
+ * narrowed to one track.
  * Primary sort: order (null sorts after numbered entries).
  * Secondary sort: sortDate descending (YYYY-MM string compare).
  */
-export function sortedEntries(kind: EntryKind): Entry[] {
-  const pool = kind === "project" ? [...data.projects] : [...data.experience];
+export function sortedEntries(kind: EntryKind, track?: TrackId): Entry[] {
+  const source = kind === "project" ? data.projects : data.experience;
+  const pool = track ? source.filter((e) => e.track === track) : [...source];
   return pool.sort((a, b) => {
     const aOrder = a.order ?? Infinity;
     const bOrder = b.order ?? Infinity;

@@ -1,18 +1,42 @@
 {
   "site": {
-    "title": "Jose Montenegro | Game Developer",
-    "description": "Game developer specializing in systems architecture, feel-first design, and shipping. Godot, Unity, and TypeScript. Top-10% jam placements and professional live-service experience at Prodigy Education.",
+    "title": "Jose Montenegro | Web & Game Developer",
+    "description": "Software developer building fast, high-scale web apps and shipped games. React, Next.js, and TypeScript on the web; Godot and Unity for games. Six years of live-service experience at Prodigy Education.",
     "author": "Jose Montenegro",
     "nav": [
-      { "label": "Experience", "href": "/#experience" },
-      { "label": "Projects", "href": "/#projects" },
-      { "label": "About", "href": "/#about" },
-      { "label": "Contact", "href": "/#contact" }
+      {
+        "label": "Experience",
+        "href": "/#experience"
+      },
+      {
+        "label": "Projects",
+        "href": "/#projects"
+      },
+      {
+        "label": "About",
+        "href": "/#about"
+      },
+      {
+        "label": "Contact",
+        "href": "/#contact"
+      }
     ],
     "social": [
-      { "label": "GitHub", "href": "https://github.com/miraclejester", "kind": "github" },
-      { "label": "itch.io", "href": "https://miraclejester.itch.io", "kind": "itch" },
-      { "label": "Email", "href": "mailto:miraclejester413@gmail.com", "kind": "email" }
+      {
+        "label": "GitHub",
+        "href": "https://github.com/miraclejester",
+        "kind": "github"
+      },
+      {
+        "label": "itch.io",
+        "href": "https://miraclejester.itch.io",
+        "kind": "itch"
+      },
+      {
+        "label": "Email",
+        "href": "mailto:josmontenegro2012@gmail.com",
+        "kind": "email"
+      }
     ],
     "footer": {
       "copyright": "© Jose Montenegro",
@@ -25,9 +49,21 @@
     "subheadline": "Software developer with a focus on systems architecture, feel-first design, and shipping.",
     "tagline": "Building fast, high-scale web apps used by millions",
     "ctas": [
-      { "label": "See my work", "href": "/#experience", "variant": "primary" },
-      { "label": "Get in touch", "href": "/#contact", "variant": "secondary" }
-    ]
+      {
+        "label": "See my work",
+        "href": "/#experience",
+        "variant": "primary"
+      },
+      {
+        "label": "Get in touch",
+        "href": "/#contact",
+        "variant": "secondary"
+      }
+    ],
+    "trackPicker": {
+      "heading": "What would you like to see?",
+      "hint": "Pick a track. You can switch any time from the header."
+    }
   },
   "about": {
     "heading": "About",
@@ -38,10 +74,34 @@
       "I'm currently open to full-time Frontend / Web Developer roles, remote or in the Greater Toronto Area. If you're building something that needs to be fast, polished, and scalable, let's talk."
     ],
     "skills": {
-      "Frameworks": ["React", "Next.js", "Prisma", "PixiJS", "Phaser"],
-      "Engines": ["Godot 4", "Godot 3", "Unity"],
-      "Languages": ["TypeScript", "C++", "C#", "Python"],
-      "Tools": ["Git", "Git LFS", "FMOD", "Godot FMOD extension", "Spine", "Aseprite", "Blender", "Tiled"],
+      "Frameworks": [
+        "React",
+        "Next.js",
+        "Prisma",
+        "PixiJS",
+        "Phaser"
+      ],
+      "Engines": [
+        "Godot 4",
+        "Godot 3",
+        "Unity"
+      ],
+      "Languages": [
+        "TypeScript",
+        "C++",
+        "C#",
+        "Python"
+      ],
+      "Tools": [
+        "Git",
+        "Git LFS",
+        "FMOD",
+        "Godot FMOD extension",
+        "Spine",
+        "Aseprite",
+        "Blender",
+        "Tiled"
+      ],
       "Areas": [
         "Fullstack Web Development",
         "Databases",
@@ -61,9 +121,21 @@
     "heading": "Let's talk.",
     "body": "I'm open to web and game developer roles. Reach out and I'll get back to you promptly.",
     "links": [
-      { "label": "Email me", "href": "mailto:miraclejester413@gmail.com", "variant": "primary" },
-      { "label": "GitHub", "href": "https://github.com/miraclejester", "variant": "secondary" },
-      { "label": "itch.io", "href": "https://miraclejester.itch.io", "variant": "secondary" }
+      {
+        "label": "Email me",
+        "href": "mailto:josmontenegro2012@gmail.com",
+        "variant": "primary"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/miraclejester",
+        "variant": "secondary"
+      },
+      {
+        "label": "itch.io",
+        "href": "https://miraclejester.itch.io",
+        "variant": "secondary"
+      }
     ]
   },
   "sections": {
@@ -95,8 +167,19 @@
       "dateLabel": "Aug 2019 – Jan 2026",
       "sortDate": "2026-01",
       "year": 2026,
-      "platforms": ["Web", "Android", "iOS"],
-      "techStack": ["PixiJS", "TypeScript", "Phaser", "React", "Spine", "Git"],
+      "platforms": [
+        "Web",
+        "Android",
+        "iOS"
+      ],
+      "techStack": [
+        "PixiJS",
+        "TypeScript",
+        "Phaser",
+        "React",
+        "Spine",
+        "Git"
+      ],
       "highlights": [
         "Battle system revamp: laid the groundwork for a more engaging combat experience, reworking core architecture for extensibility",
         "Tower Town: designed and implemented a focus-mode zone where players build and decorate their own town while answering more questions",
@@ -117,29 +200,64 @@
       "team": {
         "composition": "Large team",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Software Developer (Standard Features, Battle System, Monetization)", "url": null }
+          {
+            "name": "Jose Montenegro",
+            "role": "Software Developer (Standard Features, Battle System, Monetization)",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/experience/prodigy/hero.webp", "alt": "Prodigy Education game screenshot" },
+        "hero": {
+          "src": "/media/experience/prodigy/hero.webp",
+          "alt": "Prodigy Education game screenshot"
+        },
         "screenshots": [
-          { "src": "/media/experience/prodigy/battle.png", "alt": "Prodigy: battle system" },
-          { "src": "/media/experience/prodigy/hub.png", "alt": "Prodigy: hub area" },
-          { "src": "/media/experience/prodigy/math.png", "alt": "Prodigy: math question interface" },
-          { "src": "/media/experience/prodigy/store.png", "alt": "Prodigy: store interface" },
-          { "src": "/media/experience/prodigy/monetization.png", "alt": "Prodigy: monetization feature" }
+          {
+            "src": "/media/experience/prodigy/battle.png",
+            "alt": "Prodigy: battle system"
+          },
+          {
+            "src": "/media/experience/prodigy/hub.png",
+            "alt": "Prodigy: hub area"
+          },
+          {
+            "src": "/media/experience/prodigy/math.png",
+            "alt": "Prodigy: math question interface"
+          },
+          {
+            "src": "/media/experience/prodigy/store.png",
+            "alt": "Prodigy: store interface"
+          },
+          {
+            "src": "/media/experience/prodigy/monetization.png",
+            "alt": "Prodigy: monetization feature"
+          }
         ],
         "videos": [
-          { "src": "https://www.youtube.com/embed/6NZsAzNaYZI", "alt": "Prodigy Education gameplay video", "poster": null }
+          {
+            "src": "https://www.youtube.com/embed/6NZsAzNaYZI",
+            "alt": "Prodigy Education gameplay video",
+            "poster": null
+          }
         ]
       },
       "links": [
-        { "label": "Play Prodigy", "href": "https://play.prodigygame.com", "kind": "play" },
-        { "label": "Watch on YouTube", "href": "https://youtu.be/6NZsAzNaYZI", "kind": "youtube" }
+        {
+          "label": "Play Prodigy",
+          "href": "https://play.prodigygame.com",
+          "kind": "play"
+        },
+        {
+          "label": "Watch on YouTube",
+          "href": "https://youtu.be/6NZsAzNaYZI",
+          "kind": "youtube"
+        }
       ],
       "whatILearned": "Working at Prodigy across battle, store, and monetization teams produced a developer who is comfortable with the full weight of live-service production: QA handoffs, cross-team coordination, product constraints, and shipping to a real audience where regressions have consequences. The web-native stack (PixiJS, TypeScript, React) meant game development patterns had to coexist with web engineering discipline, a combination that broadened technical range considerably.",
       "featured": true,
-      "order": 0
+      "order": 0,
+      "track": "web"
     },
     {
       "id": "illuminia-studios",
@@ -159,8 +277,16 @@
       "dateLabel": "Jul 2018 – Dec 2018",
       "sortDate": "2018-12",
       "year": 2018,
-      "platforms": ["Android", "iOS", "Microsoft Store"],
-      "techStack": ["Unity", "C#", "Git"],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Microsoft Store"
+      ],
+      "techStack": [
+        "Unity",
+        "C#",
+        "Git"
+      ],
       "highlights": [
         "Character controller: built the core player movement and feel for an arcade action game",
         "Enemy design and implementation",
@@ -177,24 +303,48 @@
       "team": {
         "composition": "Small team (3-person core team)",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Gameplay Programmer", "url": null },
-          { "name": "Gideon Gyabaah", "role": "Designer and Multiplayer Programmer", "url": null },
-          { "name": "Samuel Anim-Addo", "role": "Artist", "url": null }
+          {
+            "name": "Jose Montenegro",
+            "role": "Gameplay Programmer",
+            "url": null
+          },
+          {
+            "name": "Gideon Gyabaah",
+            "role": "Designer and Multiplayer Programmer",
+            "url": null
+          },
+          {
+            "name": "Samuel Anim-Addo",
+            "role": "Artist",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/experience/illuminia-studios/hero.png", "alt": "BOAA game screenshot: Illuminia Studios" },
+        "hero": {
+          "src": "/media/experience/illuminia-studios/hero.png",
+          "alt": "BOAA game screenshot: Illuminia Studios"
+        },
         "screenshots": [],
         "videos": [
-          { "src": "https://www.youtube.com/embed/_x0A98nzbjY", "alt": "BOAA gameplay video", "poster": null }
+          {
+            "src": "https://www.youtube.com/embed/_x0A98nzbjY",
+            "alt": "BOAA gameplay video",
+            "poster": null
+          }
         ]
       },
       "links": [
-        { "label": "Watch on YouTube", "href": "https://www.youtube.com/watch?v=_x0A98nzbjY", "kind": "youtube" }
+        {
+          "label": "Watch on YouTube",
+          "href": "https://www.youtube.com/watch?v=_x0A98nzbjY",
+          "kind": "youtube"
+        }
       ],
       "whatILearned": "Illuminia was the first startup experience with fast-paced development, direct trade-offs against deadlines, and the reality that a technically solid product can still be halted by funding rather than quality. It reinforced existing Unity expertise and introduced the practical discipline of shipping to multiple mobile storefronts simultaneously.",
       "featured": true,
-      "order": 1
+      "order": 1,
+      "track": "game"
     },
     {
       "id": "learn-safari",
@@ -214,8 +364,15 @@
       "dateLabel": "Feb 2016 – Sep 2016",
       "sortDate": "2016-09",
       "year": 2016,
-      "platforms": ["iOS", "Web"],
-      "techStack": ["Unity", "C#", "Git"],
+      "platforms": [
+        "iOS",
+        "Web"
+      ],
+      "techStack": [
+        "Unity",
+        "C#",
+        "Git"
+      ],
       "highlights": [
         "3D navigation systems for player characters in the overworld",
         "Internal inventory management system",
@@ -233,27 +390,56 @@
       "team": {
         "composition": "Small team",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Gameplay Programmer", "url": null }
+          {
+            "name": "Jose Montenegro",
+            "role": "Gameplay Programmer",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/experience/learn-safari/hero.webp", "alt": "Learn Safari Spanish Safari game screenshot" },
+        "hero": {
+          "src": "/media/experience/learn-safari/hero.webp",
+          "alt": "Learn Safari Spanish Safari game screenshot"
+        },
         "screenshots": [
-          { "src": "/media/experience/learn-safari/s1.webp", "alt": "Spanish Safari: screenshot 1" },
-          { "src": "/media/experience/learn-safari/s2.webp", "alt": "Spanish Safari: screenshot 2" },
-          { "src": "/media/experience/learn-safari/s3.webp", "alt": "Spanish Safari: screenshot 3" }
+          {
+            "src": "/media/experience/learn-safari/s1.webp",
+            "alt": "Spanish Safari: screenshot 1"
+          },
+          {
+            "src": "/media/experience/learn-safari/s2.webp",
+            "alt": "Spanish Safari: screenshot 2"
+          },
+          {
+            "src": "/media/experience/learn-safari/s3.webp",
+            "alt": "Spanish Safari: screenshot 3"
+          }
         ],
         "videos": [
-          { "src": "https://www.youtube.com/embed/TBjedE0R06o", "alt": "Spanish Safari gameplay video", "poster": null }
+          {
+            "src": "https://www.youtube.com/embed/TBjedE0R06o",
+            "alt": "Spanish Safari gameplay video",
+            "poster": null
+          }
         ]
       },
       "links": [
-        { "label": "Play Spanish Safari", "href": "https://www.learnsafari.com/spanish-safari-web-build", "kind": "play" },
-        { "label": "Watch on YouTube", "href": "https://www.youtube.com/watch?v=TBjedE0R06o", "kind": "youtube" }
+        {
+          "label": "Play Spanish Safari",
+          "href": "https://www.learnsafari.com/spanish-safari-web-build",
+          "kind": "play"
+        },
+        {
+          "label": "Watch on YouTube",
+          "href": "https://www.youtube.com/watch?v=TBjedE0R06o",
+          "kind": "youtube"
+        }
       ],
       "whatILearned": "Learn Safari was my first professional role in game development. It established the habits that I carry through all later work: estimating deliverables, collaborating within a team under production constraints, and building the kind of Unity debugging and optimization fluency that only comes from shipping real software. The minigame architecture of self-contained modules that interface cleanly with the main game became an early model for thinking about system boundaries.",
       "featured": true,
-      "order": 2
+      "order": 2,
+      "track": "game"
     }
   ],
   "projects": [
@@ -275,8 +461,14 @@
       "dateLabel": "June 2026",
       "sortDate": "2026-06",
       "year": 2026,
-      "platforms": ["Web"],
-      "techStack": ["Godot 4", "GDScript", "Git"],
+      "platforms": [
+        "Web"
+      ],
+      "techStack": [
+        "Godot 4",
+        "GDScript",
+        "Git"
+      ],
       "highlights": [
         "Used a smaller version of Akoya's node-based system for composable sequences when making cutscenes, where each sequence was a list of behavior nodes ran sequentially",
         "The dialogue system was data-driven, with a textbox component that took dialogue data such as the voice audio to play and the list of individual dialogue pieces to run sequentially",
@@ -295,31 +487,81 @@
       "team": {
         "composition": "9 people (mid-sized team)",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Programming", "url": null },
-          { "name": "Robyn_cvh", "role": "Programming, Writing, Music, Art, Font, VO", "url": "https://robyn-cvh.itch.io/" },
-          { "name": "skigothy", "role": "Programming", "url": "https://skigothy.itch.io/" },
-          { "name": "nightshadov", "role": "Programming", "url": "https://nightshadov.itch.io/" },
-          { "name": "Kate Jacobs / cakeatjobs", "role": "Music", "url": "https://www.instagram.com/cakeatjobs/" },
-          { "name": "Bruna Teixeira / apixelnoob", "role": "Art", "url": "https://www.instagram.com/apixelnoob" },
-          { "name": "Wateronix", "role": "Art", "url": null },
-          { "name": "Aiden Call", "role": "VO", "url": null },
-          { "name": "Reshel Mae", "role": "VO", "url": null }
+          {
+            "name": "Jose Montenegro",
+            "role": "Programming",
+            "url": null
+          },
+          {
+            "name": "Robyn_cvh",
+            "role": "Programming, Writing, Music, Art, Font, VO",
+            "url": "https://robyn-cvh.itch.io/"
+          },
+          {
+            "name": "skigothy",
+            "role": "Programming",
+            "url": "https://skigothy.itch.io/"
+          },
+          {
+            "name": "nightshadov",
+            "role": "Programming",
+            "url": "https://nightshadov.itch.io/"
+          },
+          {
+            "name": "Kate Jacobs / cakeatjobs",
+            "role": "Music",
+            "url": "https://www.instagram.com/cakeatjobs/"
+          },
+          {
+            "name": "Bruna Teixeira / apixelnoob",
+            "role": "Art",
+            "url": "https://www.instagram.com/apixelnoob"
+          },
+          {
+            "name": "Wateronix",
+            "role": "Art",
+            "url": null
+          },
+          {
+            "name": "Aiden Call",
+            "role": "VO",
+            "url": null
+          },
+          {
+            "name": "Reshel Mae",
+            "role": "VO",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/projects/drury-lane-damage/hero.png", "alt": "Drury Lane Damage: game logo" },
+        "hero": {
+          "src": "/media/projects/drury-lane-damage/hero.png",
+          "alt": "Drury Lane Damage: game logo"
+        },
         "screenshots": [
-          { "src": "/media/projects/drury-lane-damage/screenshot-1.jpeg", "alt": "Drury Lane Damage: opening sequence" },
-          { "src": "/media/projects/drury-lane-damage/screenshot-2.jpeg", "alt": "Drury Lane Damage: gameplay" }
+          {
+            "src": "/media/projects/drury-lane-damage/screenshot-1.jpeg",
+            "alt": "Drury Lane Damage: opening sequence"
+          },
+          {
+            "src": "/media/projects/drury-lane-damage/screenshot-2.jpeg",
+            "alt": "Drury Lane Damage: gameplay"
+          }
         ],
         "videos": []
       },
       "links": [
-        { "label": "Play on itch.io", "href": "https://robyn-cvh.itch.io/drury-lane-damage", "kind": "itch" }
+        {
+          "label": "Play on itch.io",
+          "href": "https://robyn-cvh.itch.io/drury-lane-damage",
+          "kind": "itch"
+        }
       ],
       "whatILearned": "Implementing the dialogue system taught me about the challenges in integrating sound with moving text, as well as timing the two together. The resulting system made in the jam period definitely has room for improvement, but it is a solid start that worked well in the final product. Re-using the architectural form of Akoya's node based system for cutscene exposed a weakness in it: since it has to use scene nodes, it can be prone to usability issues when including references to things outside the root of the sequence. This can be mitigated with more careful scene architecture or by transforming the system into a truly data-driven one where all the configuration lives on a single object",
       "featured": true,
-      "order": 0
+      "order": 0,
+      "track": "game"
     },
     {
       "id": "akoya-and-the-lost-pearl",
@@ -339,8 +581,18 @@
       "dateLabel": "March 2026",
       "sortDate": "2026-03",
       "year": 2026,
-      "platforms": ["Windows", "macOS"],
-      "techStack": ["Godot 4.2", "GDScript", "FMOD", "Godot FMOD Extension", "Tiled", "Git"],
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "techStack": [
+        "Godot 4.2",
+        "GDScript",
+        "FMOD",
+        "Godot FMOD Extension",
+        "Tiled",
+        "Git"
+      ],
       "highlights": [
         "Node-based state machine used across the player character, all enemies, and interactables. New behaviors could be added mid-jam without touching unrelated code",
         "Dual-environment movement: grounded combat mode and six-directional swim mode, each with separate physics, animation states, and hitbox behavior",
@@ -361,27 +613,61 @@
       "team": {
         "composition": "4 people (small team)",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Programmer, Level Design", "url": null },
-          { "name": "Tandapata", "role": "Sound Designer", "url": null },
-          { "name": "painresidual", "role": "Composer", "url": null },
-          { "name": "Mytho_Condria", "role": "Artist, Animator", "url": null }
+          {
+            "name": "Jose Montenegro",
+            "role": "Programmer, Level Design",
+            "url": null
+          },
+          {
+            "name": "Tandapata",
+            "role": "Sound Designer",
+            "url": null
+          },
+          {
+            "name": "painresidual",
+            "role": "Composer",
+            "url": null
+          },
+          {
+            "name": "Mytho_Condria",
+            "role": "Artist, Animator",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/projects/akoya-and-the-lost-pearl/hero.png", "alt": "Akoya and the Lost Pearl: mermaid protagonist navigating the beach" },
+        "hero": {
+          "src": "/media/projects/akoya-and-the-lost-pearl/hero.png",
+          "alt": "Akoya and the Lost Pearl: mermaid protagonist navigating the beach"
+        },
         "screenshots": [
-          { "src": "/media/projects/akoya-and-the-lost-pearl/screenshot-1.jpeg", "alt": "Akoya and the Lost Pearl: screenshot 1" },
-          { "src": "/media/projects/akoya-and-the-lost-pearl/screenshot-2.jpeg", "alt": "Akoya and the Lost Pearl: screenshot 2" }
+          {
+            "src": "/media/projects/akoya-and-the-lost-pearl/screenshot-1.jpeg",
+            "alt": "Akoya and the Lost Pearl: screenshot 1"
+          },
+          {
+            "src": "/media/projects/akoya-and-the-lost-pearl/screenshot-2.jpeg",
+            "alt": "Akoya and the Lost Pearl: screenshot 2"
+          }
         ],
         "videos": []
       },
       "links": [
-        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/akoya-and-the-magical-pearl", "kind": "itch" },
-        { "label": "GitHub", "href": "https://github.com/miraclejester/mvm-31", "kind": "github" }
+        {
+          "label": "Play on itch.io",
+          "href": "https://miraclejester.itch.io/akoya-and-the-magical-pearl",
+          "kind": "itch"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/miraclejester/mvm-31",
+          "kind": "github"
+        }
       ],
       "whatILearned": "Keeping state machine transitions explicit and data-driven paid off immediately when a new enemy type was needed two days before the deadline. FMOD is powerful but its Godot support was limited enough to block a web build entirely, which is worth factoring in early. Mid-jam tool migrations are a real risk: the Tiled-to-Godot switch was the right long-term call, but it should be a deliberate day-one task rather than absorbed as scope creep. The water shader was a first step into GLSL as there is more to build on there.",
       "featured": true,
-      "order": 1
+      "order": 1,
+      "track": "game"
     },
     {
       "id": "forgefront",
@@ -401,8 +687,15 @@
       "dateLabel": "March 2026",
       "sortDate": "2026-03",
       "year": 2026,
-      "platforms": ["WebGL"],
-      "techStack": ["Unity", "C#", "Git", "Git LFS"],
+      "platforms": [
+        "WebGL"
+      ],
+      "techStack": [
+        "Unity",
+        "C#",
+        "Git",
+        "Git LFS"
+      ],
       "highlights": [
         "In-run upgrade systems and permanent chip-based progression between runs",
         "Procedurally generated maps supporting the roguelite run structure",
@@ -421,39 +714,120 @@
       "team": {
         "composition": "16 people (large team)",
         "credits": [
-          { "name": "Ben \"Cogz\" Wilson", "role": "Game Director / Creative Director", "url": null },
-          { "name": "Ziro", "role": "Assistant Creative Director", "url": null },
-          { "name": "Tyler \"Shulfo\" Baylson", "role": "Technical Director", "url": null },
-          { "name": "Paige \"Momster\" Cochran", "role": "Promotional Director", "url": null },
-          { "name": "Jose Montenegro", "role": "Developer", "url": null },
-          { "name": "Tyler \"Mr Hatt\" Russell", "role": "Developer", "url": null },
-          { "name": "maddie", "role": "Developer", "url": null },
-          { "name": "cat", "role": "Developer", "url": null },
-          { "name": "HavelSpear", "role": "Developer", "url": null },
-          { "name": "ARTIFEX", "role": "2D Art", "url": null },
-          { "name": "Blades", "role": "2D Art", "url": null },
-          { "name": "Jeremias", "role": "2D Art", "url": null },
-          { "name": "megamk", "role": "2D Art", "url": null },
-          { "name": "JustSomePikachu", "role": "Music", "url": null },
-          { "name": "Haarom", "role": "SFX", "url": null },
-          { "name": "Oliver Mena", "role": "SFX", "url": null }
+          {
+            "name": "Ben \"Cogz\" Wilson",
+            "role": "Game Director / Creative Director",
+            "url": null
+          },
+          {
+            "name": "Ziro",
+            "role": "Assistant Creative Director",
+            "url": null
+          },
+          {
+            "name": "Tyler \"Shulfo\" Baylson",
+            "role": "Technical Director",
+            "url": null
+          },
+          {
+            "name": "Paige \"Momster\" Cochran",
+            "role": "Promotional Director",
+            "url": null
+          },
+          {
+            "name": "Jose Montenegro",
+            "role": "Developer",
+            "url": null
+          },
+          {
+            "name": "Tyler \"Mr Hatt\" Russell",
+            "role": "Developer",
+            "url": null
+          },
+          {
+            "name": "maddie",
+            "role": "Developer",
+            "url": null
+          },
+          {
+            "name": "cat",
+            "role": "Developer",
+            "url": null
+          },
+          {
+            "name": "HavelSpear",
+            "role": "Developer",
+            "url": null
+          },
+          {
+            "name": "ARTIFEX",
+            "role": "2D Art",
+            "url": null
+          },
+          {
+            "name": "Blades",
+            "role": "2D Art",
+            "url": null
+          },
+          {
+            "name": "Jeremias",
+            "role": "2D Art",
+            "url": null
+          },
+          {
+            "name": "megamk",
+            "role": "2D Art",
+            "url": null
+          },
+          {
+            "name": "JustSomePikachu",
+            "role": "Music",
+            "url": null
+          },
+          {
+            "name": "Haarom",
+            "role": "SFX",
+            "url": null
+          },
+          {
+            "name": "Oliver Mena",
+            "role": "SFX",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/projects/forgefront/hero.png", "alt": "ForgeFront: factory robots battling enemies" },
+        "hero": {
+          "src": "/media/projects/forgefront/hero.png",
+          "alt": "ForgeFront: factory robots battling enemies"
+        },
         "screenshots": [
-          { "src": "/media/projects/forgefront/s1.png", "alt": "ForgeFront: screenshot 1" },
-          { "src": "/media/projects/forgefront/s2.png", "alt": "ForgeFront: screenshot 2" },
-          { "src": "/media/projects/forgefront/s3.png", "alt": "ForgeFront: screenshot 3" }
+          {
+            "src": "/media/projects/forgefront/s1.png",
+            "alt": "ForgeFront: screenshot 1"
+          },
+          {
+            "src": "/media/projects/forgefront/s2.png",
+            "alt": "ForgeFront: screenshot 2"
+          },
+          {
+            "src": "/media/projects/forgefront/s3.png",
+            "alt": "ForgeFront: screenshot 3"
+          }
         ],
         "videos": []
       },
       "links": [
-        { "label": "Play on itch.io", "href": "https://amorphousartsstudio.itch.io/forgefront", "kind": "itch" }
+        {
+          "label": "Play on itch.io",
+          "href": "https://amorphousartsstudio.itch.io/forgefront",
+          "kind": "itch"
+        }
       ],
       "whatILearned": "Managing a large team under a one-week deadline is primarily a systems design problem: the game needs to be architected so that everyone can contribute in parallel without constant integration pain. The main lesson was that upfront system planning pays off disproportionately at this scale. Time invested on day one saves multiples later. The second half of the project was largely integration work, and the clearest takeaway is that more deliberate planning at the start would have made that phase significantly smoother. On the other hand, I was able to code a roguelike upgrade system that worked in a run-only setting as well as persistently, which was a great learning experience.",
       "featured": true,
-      "order": 2
+      "order": 2,
+      "track": "game"
     },
     {
       "id": "vizard",
@@ -473,8 +847,16 @@
       "dateLabel": "January 2026",
       "sortDate": "2026-01",
       "year": 2026,
-      "platforms": ["Windows", "Web (planned)"],
-      "techStack": ["Unity", "C#", "Blender", "Git"],
+      "platforms": [
+        "Windows",
+        "Web (planned)"
+      ],
+      "techStack": [
+        "Unity",
+        "C#",
+        "Blender",
+        "Git"
+      ],
       "highlights": [
         "Data-driven terminal system: console commands, file system, employee profiles, and chat logs are all defined in data - adding new content requires no code changes",
         "Localization pipeline using Unity's table system connected to an external Google Sheet for content management",
@@ -493,30 +875,71 @@
       "team": {
         "composition": "4 people (small team)",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Programmer, Main Designer", "url": null },
-          { "name": "Cristian Medina", "role": "Programmer, Technical Artist", "url": null },
-          { "name": "Kenxfive", "role": "Programmer", "url": null },
-          { "name": "DeathMetal", "role": "Miscellaneous Support", "url": null }
+          {
+            "name": "Jose Montenegro",
+            "role": "Programmer, Main Designer",
+            "url": null
+          },
+          {
+            "name": "Cristian Medina",
+            "role": "Programmer, Technical Artist",
+            "url": null
+          },
+          {
+            "name": "Kenxfive",
+            "role": "Programmer",
+            "url": null
+          },
+          {
+            "name": "DeathMetal",
+            "role": "Miscellaneous Support",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/projects/vizard/hero.png", "alt": "VIZARD: hacker terminal interface" },
+        "hero": {
+          "src": "/media/projects/vizard/hero.png",
+          "alt": "VIZARD: hacker terminal interface"
+        },
         "screenshots": [
-          { "src": "/media/projects/vizard/mission.png", "alt": "VIZARD: mission briefing screen" },
-          { "src": "/media/projects/vizard/chat.png", "alt": "VIZARD: internal company chat" },
-          { "src": "/media/projects/vizard/file.png", "alt": "VIZARD: file system view" }
+          {
+            "src": "/media/projects/vizard/mission.png",
+            "alt": "VIZARD: mission briefing screen"
+          },
+          {
+            "src": "/media/projects/vizard/chat.png",
+            "alt": "VIZARD: internal company chat"
+          },
+          {
+            "src": "/media/projects/vizard/file.png",
+            "alt": "VIZARD: file system view"
+          }
         ],
         "videos": [
-          { "src": "/media/projects/vizard/cutscene.mp4", "alt": "VIZARD: cutscene", "poster": null },
-          { "src": "/media/projects/vizard/gameplay.mp4", "alt": "VIZARD: gameplay", "poster": null }
+          {
+            "src": "/media/projects/vizard/cutscene.mp4",
+            "alt": "VIZARD: cutscene",
+            "poster": null
+          },
+          {
+            "src": "/media/projects/vizard/gameplay.mp4",
+            "alt": "VIZARD: gameplay",
+            "poster": null
+          }
         ]
       },
       "links": [
-        { "label": "View on GGJ", "href": "https://globalgamejam.org/games/2026/vizard-2", "kind": "other" }
+        {
+          "label": "View on GGJ",
+          "href": "https://globalgamejam.org/games/2026/vizard-2",
+          "kind": "other"
+        }
       ],
       "whatILearned": "This was the first project where design ownership was the primary creative responsibility. The data-driven architecture meant the terminal could be extended without touching code, which proved valuable when scope grew post-jam. Working on localization via Unity's table and Google Sheet pipeline added a practical production skill that carries into larger projects.",
       "featured": true,
-      "order": 3
+      "order": 3,
+      "track": "game"
     },
     {
       "id": "dragon-warrior-nes-clone",
@@ -536,8 +959,14 @@
       "dateLabel": "April 2025",
       "sortDate": "2025-04",
       "year": 2025,
-      "platforms": ["Web"],
-      "techStack": ["Godot 4", "GDScript", "Git"],
+      "platforms": [
+        "Web"
+      ],
+      "techStack": [
+        "Godot 4",
+        "GDScript",
+        "Git"
+      ],
       "highlights": [
         "Battle system built on an MVC architecture. View updates the model through controller commands and the model returns a list of battle events for the view to consume. Designed to scale to more complex turn-based systems or a client-server setup",
         "8-bit era shaders and UI effects: full-screen fadeout, text rendering, and period-accurate visual behavior",
@@ -551,24 +980,46 @@
       "team": {
         "composition": "Solo",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Sole Developer", "url": null }
+          {
+            "name": "Jose Montenegro",
+            "role": "Sole Developer",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/projects/dragon-warrior-nes-clone/hero.png", "alt": "Dragon Warrior NES Clone: overworld view" },
+        "hero": {
+          "src": "/media/projects/dragon-warrior-nes-clone/hero.png",
+          "alt": "Dragon Warrior NES Clone: overworld view"
+        },
         "screenshots": [
-          { "src": "/media/projects/dragon-warrior-nes-clone/s1.png", "alt": "Dragon Warrior NES Clone: screenshot 1" },
-          { "src": "/media/projects/dragon-warrior-nes-clone/s2.png", "alt": "Dragon Warrior NES Clone: screenshot 2" }
+          {
+            "src": "/media/projects/dragon-warrior-nes-clone/s1.png",
+            "alt": "Dragon Warrior NES Clone: screenshot 1"
+          },
+          {
+            "src": "/media/projects/dragon-warrior-nes-clone/s2.png",
+            "alt": "Dragon Warrior NES Clone: screenshot 2"
+          }
         ],
         "videos": []
       },
       "links": [
-        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/dragon-warrior-nes-clone", "kind": "itch" },
-        { "label": "GitHub", "href": "https://github.com/miraclejester/clones-dq1", "kind": "github" }
+        {
+          "label": "Play on itch.io",
+          "href": "https://miraclejester.itch.io/dragon-warrior-nes-clone",
+          "kind": "itch"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/miraclejester/clones-dq1",
+          "kind": "github"
+        }
       ],
       "whatILearned": "The MVC pattern for turn-based systems was the key engineering insight here: the view sends commands to the controller, the controller updates the model, and the model emits a flat list of battle events for the view to replay in sequence. This decoupling makes the system straightforward to extend and naturally supports a client-server split if needed. Writing 8-bit era shaders and UI code was a satisfying exercise in deliberate platform constraints.",
       "featured": true,
-      "order": 4
+      "order": 4,
+      "track": "game"
     },
     {
       "id": "cursed-ruby",
@@ -588,8 +1039,16 @@
       "dateLabel": "September 2022",
       "sortDate": "2022-09",
       "year": 2022,
-      "platforms": ["Windows", "WebGL"],
-      "techStack": ["Godot 3", "GDScript", "Aseprite", "Git"],
+      "platforms": [
+        "Windows",
+        "WebGL"
+      ],
+      "techStack": [
+        "Godot 3",
+        "GDScript",
+        "Aseprite",
+        "Git"
+      ],
       "highlights": [
         "Reusable state machine and physics architecture carried forward into future projects",
         "Tilemap-based level system with ability-gated progression",
@@ -609,33 +1068,86 @@
       "team": {
         "composition": "Solo",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Sole Programmer", "url": null },
-          { "name": "Nyebe", "role": "Title screen, game over, and intro art", "url": null },
-          { "name": "Ansimuz", "role": "Environment and character sprites", "url": "https://ansimuz.itch.io/" },
-          { "name": "Steven Melin", "role": "Music", "url": "https://www.gamedevmarket.net/member/stevenmelin/" },
-          { "name": "Kronbits", "role": "Sound effects", "url": "https://kronbits.itch.io" },
-          { "name": "Leohpaz", "role": "Sound effects", "url": "https://leohpaz.itch.io/" },
-          { "name": "Cici Fyre", "role": "Voices", "url": "https://cicifyre.itch.io/" }
+          {
+            "name": "Jose Montenegro",
+            "role": "Sole Programmer",
+            "url": null
+          },
+          {
+            "name": "Nyebe",
+            "role": "Title screen, game over, and intro art",
+            "url": null
+          },
+          {
+            "name": "Ansimuz",
+            "role": "Environment and character sprites",
+            "url": "https://ansimuz.itch.io/"
+          },
+          {
+            "name": "Steven Melin",
+            "role": "Music",
+            "url": "https://www.gamedevmarket.net/member/stevenmelin/"
+          },
+          {
+            "name": "Kronbits",
+            "role": "Sound effects",
+            "url": "https://kronbits.itch.io"
+          },
+          {
+            "name": "Leohpaz",
+            "role": "Sound effects",
+            "url": "https://leohpaz.itch.io/"
+          },
+          {
+            "name": "Cici Fyre",
+            "role": "Voices",
+            "url": "https://cicifyre.itch.io/"
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/projects/cursed-ruby/hero.png", "alt": "Cursed Ruby: protagonist Ruby in the gothic castle environment" },
+        "hero": {
+          "src": "/media/projects/cursed-ruby/hero.png",
+          "alt": "Cursed Ruby: protagonist Ruby in the gothic castle environment"
+        },
         "screenshots": [
-          { "src": "/media/projects/cursed-ruby/screenshots/gameplay.png", "alt": "Cursed Ruby: gameplay screenshot" },
-          { "src": "/media/projects/cursed-ruby/screenshots/cutscene.png", "alt": "Cursed Ruby: cutscene screenshot" },
-          { "src": "/media/projects/cursed-ruby/screenshots/spear.png", "alt": "Cursed Ruby: wall-sticking spear ability" }
+          {
+            "src": "/media/projects/cursed-ruby/screenshots/gameplay.png",
+            "alt": "Cursed Ruby: gameplay screenshot"
+          },
+          {
+            "src": "/media/projects/cursed-ruby/screenshots/cutscene.png",
+            "alt": "Cursed Ruby: cutscene screenshot"
+          },
+          {
+            "src": "/media/projects/cursed-ruby/screenshots/spear.png",
+            "alt": "Cursed Ruby: wall-sticking spear ability"
+          }
         ],
         "videos": [
-          { "src": "/media/projects/cursed-ruby/video/dash.mp4", "alt": "Cursed Ruby: air dash ability showcase", "poster": null }
+          {
+            "src": "/media/projects/cursed-ruby/video/dash.mp4",
+            "alt": "Cursed Ruby: air dash ability showcase",
+            "poster": null
+          }
         ]
       },
       "links": [
-        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/cursed-ruby", "kind": "itch" },
-        { "label": "GitHub", "href": "https://github.com/miraclejester/metroidvaniamonthXVII", "kind": "github" }
+        {
+          "label": "Play on itch.io",
+          "href": "https://miraclejester.itch.io/cursed-ruby",
+          "kind": "itch"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/miraclejester/metroidvaniamonthXVII",
+          "kind": "github"
+        }
       ],
       "whatILearned": "This project is where Godot became a genuine tool rather than an experiment. State machines, physics, tilemaps and more settled into reusable patterns that survived the engine upgrade to Godot 4. Designing unconventional abilities led to level design challenges where I needed to provide compelling uses as well as making the abilities easy to understand. Moves that felt obvious to me as the programmer were invisible to fresh players until the environment forced experimentation.",
       "featured": true,
-      "order": 5
+      "order": 5,
+      "track": "game"
     },
     {
       "id": "jumping-jack",
@@ -655,8 +1167,13 @@
       "dateLabel": "June 2019",
       "sortDate": "2019-06",
       "year": 2019,
-      "platforms": ["Windows"],
-      "techStack": ["Unity", "C#"],
+      "platforms": [
+        "Windows"
+      ],
+      "techStack": [
+        "Unity",
+        "C#"
+      ],
       "highlights": [
         "Minimal, intentional control scheme matching the original (arrow keys + Enter)",
         "Reverse-engineered design from playing the original"
@@ -668,26 +1185,54 @@
       "team": {
         "composition": "Solo",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Sole Developer", "url": null }
+          {
+            "name": "Jose Montenegro",
+            "role": "Sole Developer",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/projects/jumping-jack/hero.png", "alt": "Jumping Jack: platform climbing gameplay" },
+        "hero": {
+          "src": "/media/projects/jumping-jack/hero.png",
+          "alt": "Jumping Jack: platform climbing gameplay"
+        },
         "screenshots": [
-          { "src": "/media/projects/jumping-jack/title.png", "alt": "Jumping Jack: title screen" },
-          { "src": "/media/projects/jumping-jack/gameplay.png", "alt": "Jumping Jack: gameplay" },
-          { "src": "/media/projects/jumping-jack/level.png", "alt": "Jumping Jack: level view" },
-          { "src": "/media/projects/jumping-jack/gameover.png", "alt": "Jumping Jack: game over screen" }
+          {
+            "src": "/media/projects/jumping-jack/title.png",
+            "alt": "Jumping Jack: title screen"
+          },
+          {
+            "src": "/media/projects/jumping-jack/gameplay.png",
+            "alt": "Jumping Jack: gameplay"
+          },
+          {
+            "src": "/media/projects/jumping-jack/level.png",
+            "alt": "Jumping Jack: level view"
+          },
+          {
+            "src": "/media/projects/jumping-jack/gameover.png",
+            "alt": "Jumping Jack: game over screen"
+          }
         ],
         "videos": []
       },
       "links": [
-        { "label": "Download on itch.io", "href": "https://miraclejester.itch.io/jumping-jack", "kind": "itch" },
-        { "label": "GitHub", "href": "https://github.com/jmontene/JumpingJack", "kind": "github" }
+        {
+          "label": "Download on itch.io",
+          "href": "https://miraclejester.itch.io/jumping-jack",
+          "kind": "itch"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/jmontene/JumpingJack",
+          "kind": "github"
+        }
       ],
       "whatILearned": "Remaking a classic is a useful design exercise precisely because you cannot take shortcuts: every mechanic has to be understood well enough to reproduce it accurately. Reverse-engineering how the original handled platform rows, enemy movement, and gap detection built an intuition for classic arcade design principles that is harder to acquire from reading about them.",
       "featured": true,
-      "order": 6
+      "order": 6,
+      "track": "game"
     },
     {
       "id": "princess-showdown",
@@ -707,8 +1252,13 @@
       "dateLabel": "December 2018",
       "sortDate": "2018-12",
       "year": 2018,
-      "platforms": ["Windows"],
-      "techStack": ["Unity", "C#"],
+      "platforms": [
+        "Windows"
+      ],
+      "techStack": [
+        "Unity",
+        "C#"
+      ],
       "highlights": [
         "Two switchable magic forms that change combat approach and traversal options",
         "Skeletal 2D animation for the player character",
@@ -729,35 +1279,101 @@
       "team": {
         "composition": "Solo",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Programmer, Designer", "url": null },
-          { "name": "Sterndecorum", "role": "Title Art, Sprites, Voices", "url": null },
-          { "name": "Samuel Anim-Addo", "role": "Backgrounds and Tiles", "url": null },
-          { "name": "CodeManu", "role": "Pixel Effects", "url": "https://codemanu.itch.io/" },
-          { "name": "Cethiel", "role": "Light Magic Effect", "url": "https://opengameart.org/users/cethiel" },
-          { "name": "Smileymensch", "role": "Heart UI Graphic", "url": "https://opengameart.org/users/smileymensch" },
-          { "name": "Sirkoto51", "role": "Music", "url": "https://freesound.org/people/Sirkoto51/" },
-          { "name": "Robinhood76", "role": "SFX", "url": null },
-          { "name": "Headphaze", "role": "SFX", "url": null },
-          { "name": "elmasmalo1", "role": "SFX", "url": null },
-          { "name": "qubodup", "role": "SFX", "url": null },
-          { "name": "TheAtomicBrain", "role": "SFX", "url": null }
+          {
+            "name": "Jose Montenegro",
+            "role": "Programmer, Designer",
+            "url": null
+          },
+          {
+            "name": "Sterndecorum",
+            "role": "Title Art, Sprites, Voices",
+            "url": null
+          },
+          {
+            "name": "Samuel Anim-Addo",
+            "role": "Backgrounds and Tiles",
+            "url": null
+          },
+          {
+            "name": "CodeManu",
+            "role": "Pixel Effects",
+            "url": "https://codemanu.itch.io/"
+          },
+          {
+            "name": "Cethiel",
+            "role": "Light Magic Effect",
+            "url": "https://opengameart.org/users/cethiel"
+          },
+          {
+            "name": "Smileymensch",
+            "role": "Heart UI Graphic",
+            "url": "https://opengameart.org/users/smileymensch"
+          },
+          {
+            "name": "Sirkoto51",
+            "role": "Music",
+            "url": "https://freesound.org/people/Sirkoto51/"
+          },
+          {
+            "name": "Robinhood76",
+            "role": "SFX",
+            "url": null
+          },
+          {
+            "name": "Headphaze",
+            "role": "SFX",
+            "url": null
+          },
+          {
+            "name": "elmasmalo1",
+            "role": "SFX",
+            "url": null
+          },
+          {
+            "name": "qubodup",
+            "role": "SFX",
+            "url": null
+          },
+          {
+            "name": "TheAtomicBrain",
+            "role": "SFX",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/projects/princess-showdown/hero.png", "alt": "Princess Showdown: Princess Rose in combat" },
+        "hero": {
+          "src": "/media/projects/princess-showdown/hero.png",
+          "alt": "Princess Showdown: Princess Rose in combat"
+        },
         "screenshots": [
-          { "src": "/media/projects/princess-showdown/screenshot-1.png", "alt": "Princess Showdown: screenshot 1" },
-          { "src": "/media/projects/princess-showdown/screenshot-2.png", "alt": "Princess Showdown: screenshot 2" }
+          {
+            "src": "/media/projects/princess-showdown/screenshot-1.png",
+            "alt": "Princess Showdown: screenshot 1"
+          },
+          {
+            "src": "/media/projects/princess-showdown/screenshot-2.png",
+            "alt": "Princess Showdown: screenshot 2"
+          }
         ],
         "videos": []
       },
       "links": [
-        { "label": "Download on itch.io", "href": "https://miraclejester.itch.io/princess-showdown", "kind": "itch" },
-        { "label": "Prototype Postmortem", "href": "https://miraclejester.itch.io/princess-showdown/devlog/59033/prototype-postmortem", "kind": "devlog" }
+        {
+          "label": "Download on itch.io",
+          "href": "https://miraclejester.itch.io/princess-showdown",
+          "kind": "itch"
+        },
+        {
+          "label": "Prototype Postmortem",
+          "href": "https://miraclejester.itch.io/princess-showdown/devlog/59033/prototype-postmortem",
+          "kind": "devlog"
+        }
       ],
       "whatILearned": "This project introduced several technical challenges tackled for the first time: skeletal 2D animation, virtual cameras, parallax backgrounds, and event sequencing for cutscenes that occur mid-gameplay. The on-the-fly ability switching also required careful state management to keep transitions clean and responsive. Writing a public postmortem after release added a layer of reflection that sharpened the ability to assess design decisions critically.",
       "featured": true,
-      "order": 7
+      "order": 7,
+      "track": "game"
     },
     {
       "id": "dinosaur-rain",
@@ -777,8 +1393,14 @@
       "dateLabel": "February 2018",
       "sortDate": "2018-02",
       "year": 2018,
-      "platforms": ["WebGL", "Windows"],
-      "techStack": ["Unity", "C#"],
+      "platforms": [
+        "WebGL",
+        "Windows"
+      ],
+      "techStack": [
+        "Unity",
+        "C#"
+      ],
       "highlights": [
         "Jam theme \"Frantic\" directly expressed through high-density dinosaur spawning and survival pressure",
         "Completed in a single day by a three-person student team",
@@ -797,28 +1419,64 @@
       "team": {
         "composition": "3 people (small team)",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Programmer", "url": null },
-          { "name": "Hercules Dias", "role": "Programmer", "url": null },
-          { "name": "Viviana Bazalar", "role": "Artist", "url": null }
+          {
+            "name": "Jose Montenegro",
+            "role": "Programmer",
+            "url": null
+          },
+          {
+            "name": "Hercules Dias",
+            "role": "Programmer",
+            "url": null
+          },
+          {
+            "name": "Viviana Bazalar",
+            "role": "Artist",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/projects/dinosaur-rain/hero.png", "alt": "Dinosaur Rain: dinosaurs raining from the sky" },
+        "hero": {
+          "src": "/media/projects/dinosaur-rain/hero.png",
+          "alt": "Dinosaur Rain: dinosaurs raining from the sky"
+        },
         "screenshots": [
-          { "src": "/media/projects/dinosaur-rain/title.png", "alt": "Dinosaur Rain: title screen" },
-          { "src": "/media/projects/dinosaur-rain/instructions.png", "alt": "Dinosaur Rain: instructions screen" },
-          { "src": "/media/projects/dinosaur-rain/gameplay.png", "alt": "Dinosaur Rain: gameplay screenshot" },
-          { "src": "/media/projects/dinosaur-rain/gameover.png", "alt": "Dinosaur Rain: game over screen" }
+          {
+            "src": "/media/projects/dinosaur-rain/title.png",
+            "alt": "Dinosaur Rain: title screen"
+          },
+          {
+            "src": "/media/projects/dinosaur-rain/instructions.png",
+            "alt": "Dinosaur Rain: instructions screen"
+          },
+          {
+            "src": "/media/projects/dinosaur-rain/gameplay.png",
+            "alt": "Dinosaur Rain: gameplay screenshot"
+          },
+          {
+            "src": "/media/projects/dinosaur-rain/gameover.png",
+            "alt": "Dinosaur Rain: game over screen"
+          }
         ],
         "videos": []
       },
       "links": [
-        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/dinosaur-rain", "kind": "itch" },
-        { "label": "GitHub", "href": "https://github.com/jmontene/GBCJAM_2018", "kind": "github" }
+        {
+          "label": "Play on itch.io",
+          "href": "https://miraclejester.itch.io/dinosaur-rain",
+          "kind": "itch"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/jmontene/GBCJAM_2018",
+          "kind": "github"
+        }
       ],
       "whatILearned": "A one-day jam demands a design that can be finished in one day. The main skill on display here is scope judgment: identifying a premise simple enough to build completely under the constraint, while still being coherent and fun. The team hit that target, which is the whole point of a short jam.",
       "featured": true,
-      "order": 8
+      "order": 8,
+      "track": "game"
     },
     {
       "id": "simple-qbert",
@@ -838,8 +1496,13 @@
       "dateLabel": "February 2018",
       "sortDate": "2018-02",
       "year": 2018,
-      "platforms": ["WebGL"],
-      "techStack": ["Unity", "C#"],
+      "platforms": [
+        "WebGL"
+      ],
+      "techStack": [
+        "Unity",
+        "C#"
+      ],
       "highlights": [
         "Local Leaderboards",
         "Recreated enemy behavior and color-change puzzle mechanic from the 1982 original",
@@ -854,25 +1517,50 @@
       "team": {
         "composition": "Solo",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Sole Developer", "url": null }
+          {
+            "name": "Jose Montenegro",
+            "role": "Sole Developer",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/projects/simple-qbert/hero.png", "alt": "Simple QBert: isometric cube-hopping gameplay" },
+        "hero": {
+          "src": "/media/projects/simple-qbert/hero.png",
+          "alt": "Simple QBert: isometric cube-hopping gameplay"
+        },
         "screenshots": [
-          { "src": "/media/projects/simple-qbert/title.png", "alt": "Simple QBert: title screen" },
-          { "src": "/media/projects/simple-qbert/instructions.png", "alt": "Simple QBert: instructions screen" },
-          { "src": "/media/projects/simple-qbert/gameover.png", "alt": "Simple QBert: game over screen" }
+          {
+            "src": "/media/projects/simple-qbert/title.png",
+            "alt": "Simple QBert: title screen"
+          },
+          {
+            "src": "/media/projects/simple-qbert/instructions.png",
+            "alt": "Simple QBert: instructions screen"
+          },
+          {
+            "src": "/media/projects/simple-qbert/gameover.png",
+            "alt": "Simple QBert: game over screen"
+          }
         ],
         "videos": []
       },
       "links": [
-        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/simple-qbert", "kind": "itch" },
-        { "label": "GitHub", "href": "https://github.com/jmontene/Qbert", "kind": "github" }
+        {
+          "label": "Play on itch.io",
+          "href": "https://miraclejester.itch.io/simple-qbert",
+          "kind": "itch"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/jmontene/Qbert",
+          "kind": "github"
+        }
       ],
       "whatILearned": "Reverse-engineering a classic game forces you to understand its systems at a fundamental level. The isometric cube-hopping, enemy routing, and color state logic all had to be understood precisely to reproduce them correctly. Finishing well ahead of schedule demonstrated that thorough problem decomposition matters more than time budgeted, and the professional opportunity that followed reinforced that publicly sharing quality work opens doors.",
       "featured": true,
-      "order": 9
+      "order": 9,
+      "track": "game"
     },
     {
       "id": "hands-off",
@@ -892,8 +1580,13 @@
       "dateLabel": "August 2017",
       "sortDate": "2017-08",
       "year": 2017,
-      "platforms": ["WebGL"],
-      "techStack": ["Unity", "C#"],
+      "platforms": [
+        "WebGL"
+      ],
+      "techStack": [
+        "Unity",
+        "C#"
+      ],
       "highlights": [
         "Completed in a single day by a two-person team",
         "Browser-playable via HTML5"
@@ -909,26 +1602,55 @@
       "team": {
         "composition": "2 people (small team)",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Programmer and Designer", "url": null },
-          { "name": "jamiecch", "role": "Programmer and Artist", "url": null }
+          {
+            "name": "Jose Montenegro",
+            "role": "Programmer and Designer",
+            "url": null
+          },
+          {
+            "name": "jamiecch",
+            "role": "Programmer and Artist",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/projects/hands-off/hero.png", "alt": "Hands Off: blackboard scratching gameplay" },
+        "hero": {
+          "src": "/media/projects/hands-off/hero.png",
+          "alt": "Hands Off: blackboard scratching gameplay"
+        },
         "screenshots": [
-          { "src": "/media/projects/hands-off/screenshot-1.png", "alt": "Hands Off: screenshot 1" },
-          { "src": "/media/projects/hands-off/screenshot-2.png", "alt": "Hands Off: screenshot 2" },
-          { "src": "/media/projects/hands-off/screenshot-3.png", "alt": "Hands Off: screenshot 3" }
+          {
+            "src": "/media/projects/hands-off/screenshot-1.png",
+            "alt": "Hands Off: screenshot 1"
+          },
+          {
+            "src": "/media/projects/hands-off/screenshot-2.png",
+            "alt": "Hands Off: screenshot 2"
+          },
+          {
+            "src": "/media/projects/hands-off/screenshot-3.png",
+            "alt": "Hands Off: screenshot 3"
+          }
         ],
         "videos": []
       },
       "links": [
-        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/hands-off-gbc", "kind": "itch" },
-        { "label": "GitHub", "href": "https://github.com/jmontene/hands-off", "kind": "github" }
+        {
+          "label": "Play on itch.io",
+          "href": "https://miraclejester.itch.io/hands-off-gbc",
+          "kind": "itch"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/jmontene/hands-off",
+          "kind": "github"
+        }
       ],
       "whatILearned": "This was the first game jam experience at George Brown College. I learned that a simple, clearly scoped game can be built and shipped in one day if the design is disciplined from the start. Getting something complete and playable under that constraint is the whole goal.",
       "featured": true,
-      "order": 10
+      "order": 10,
+      "track": "game"
     },
     {
       "id": "chicken-feud",
@@ -948,8 +1670,13 @@
       "dateLabel": "July 2015",
       "sortDate": "2015-07",
       "year": 2015,
-      "platforms": ["WebGL"],
-      "techStack": ["Unity", "C#"],
+      "platforms": [
+        "WebGL"
+      ],
+      "techStack": [
+        "Unity",
+        "C#"
+      ],
       "highlights": [
         "Local multiplayer: one player pursues rescue, the other plays saboteur",
         "Puzzle interface built to scale cleanly across screen resolutions",
@@ -968,25 +1695,50 @@
       "team": {
         "composition": "2 people (small team)",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Programming and Design", "url": null },
-          { "name": "sterndecorum", "role": "Art", "url": null }
+          {
+            "name": "Jose Montenegro",
+            "role": "Programming and Design",
+            "url": null
+          },
+          {
+            "name": "sterndecorum",
+            "role": "Art",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/projects/chicken-feud/hero.png", "alt": "Chicken Feud: puzzle game interface" },
+        "hero": {
+          "src": "/media/projects/chicken-feud/hero.png",
+          "alt": "Chicken Feud: puzzle game interface"
+        },
         "screenshots": [
-          { "src": "/media/projects/chicken-feud/title.png", "alt": "Chicken Feud: title screen" },
-          { "src": "/media/projects/chicken-feud/gameplay.png", "alt": "Chicken Feud: gameplay" },
-          { "src": "/media/projects/chicken-feud/win.png", "alt": "Chicken Feud: win screen" }
+          {
+            "src": "/media/projects/chicken-feud/title.png",
+            "alt": "Chicken Feud: title screen"
+          },
+          {
+            "src": "/media/projects/chicken-feud/gameplay.png",
+            "alt": "Chicken Feud: gameplay"
+          },
+          {
+            "src": "/media/projects/chicken-feud/win.png",
+            "alt": "Chicken Feud: win screen"
+          }
         ],
         "videos": []
       },
       "links": [
-        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/chicken-feud", "kind": "itch" }
+        {
+          "label": "Play on itch.io",
+          "href": "https://miraclejester.itch.io/chicken-feud",
+          "kind": "itch"
+        }
       ],
       "whatILearned": "The design was heavily inspired by Tetris Attack, which meant studying how that kind of grid-based interface is constructed before building it. The most technically satisfying outcome was a resolution-independent puzzle layout which is a non-trivial UI engineering problem when the grid has to feel tight and precise.",
       "featured": true,
-      "order": 11
+      "order": 11,
+      "track": "game"
     },
     {
       "id": "stink-bomb-revenge",
@@ -1006,8 +1758,13 @@
       "dateLabel": "January 2015",
       "sortDate": "2015-01",
       "year": 2015,
-      "platforms": ["WebGL"],
-      "techStack": ["Unity", "C#"],
+      "platforms": [
+        "WebGL"
+      ],
+      "techStack": [
+        "Unity",
+        "C#"
+      ],
       "highlights": [
         "Collaborative combination of mini-games coded by different developers integrated into one experience",
         "Browser-playable via WebGL",
@@ -1026,33 +1783,374 @@
       "team": {
         "composition": "8 people (small team)",
         "credits": [
-          { "name": "Jose Montenegro", "role": "Programmer", "url": null },
-          { "name": "Juan Ascanio", "role": "Programmer", "url": null },
-          { "name": "Carlos Cruz", "role": "Programmer", "url": null },
-          { "name": "Mauricio Labarca", "role": "Programmer", "url": null },
-          { "name": "Luis Miranda", "role": "Programmer", "url": null },
-          { "name": "Manuel Berbin", "role": "Art", "url": null },
-          { "name": "Cristian Medina", "role": "Art", "url": null },
-          { "name": "Andrea Vela", "role": "Art", "url": null }
+          {
+            "name": "Jose Montenegro",
+            "role": "Programmer",
+            "url": null
+          },
+          {
+            "name": "Juan Ascanio",
+            "role": "Programmer",
+            "url": null
+          },
+          {
+            "name": "Carlos Cruz",
+            "role": "Programmer",
+            "url": null
+          },
+          {
+            "name": "Mauricio Labarca",
+            "role": "Programmer",
+            "url": null
+          },
+          {
+            "name": "Luis Miranda",
+            "role": "Programmer",
+            "url": null
+          },
+          {
+            "name": "Manuel Berbin",
+            "role": "Art",
+            "url": null
+          },
+          {
+            "name": "Cristian Medina",
+            "role": "Art",
+            "url": null
+          },
+          {
+            "name": "Andrea Vela",
+            "role": "Art",
+            "url": null
+          }
         ]
       },
       "media": {
-        "hero": { "src": "/media/projects/stink-bomb-revenge/hero.png", "alt": "Stink Bomb Revenge: puzzle bomb interface" },
+        "hero": {
+          "src": "/media/projects/stink-bomb-revenge/hero.png",
+          "alt": "Stink Bomb Revenge: puzzle bomb interface"
+        },
         "screenshots": [
-          { "src": "/media/projects/stink-bomb-revenge/cutscene.png", "alt": "Stink Bomb Revenge: cutscene" },
-          { "src": "/media/projects/stink-bomb-revenge/gameplay.png", "alt": "Stink Bomb Revenge: gameplay" }
+          {
+            "src": "/media/projects/stink-bomb-revenge/cutscene.png",
+            "alt": "Stink Bomb Revenge: cutscene"
+          },
+          {
+            "src": "/media/projects/stink-bomb-revenge/gameplay.png",
+            "alt": "Stink Bomb Revenge: gameplay"
+          }
         ],
         "videos": [
-          { "src": "https://www.youtube.com/embed/7QRPcJNFcwk", "alt": "Stink Bomb Revenge gameplay video", "poster": null }
+          {
+            "src": "https://www.youtube.com/embed/7QRPcJNFcwk",
+            "alt": "Stink Bomb Revenge gameplay video",
+            "poster": null
+          }
         ]
       },
       "links": [
-        { "label": "Play on itch.io", "href": "https://miraclejester.itch.io/stink-bomb-revenge", "kind": "itch" },
-        { "label": "Watch on YouTube", "href": "https://www.youtube.com/watch?v=7QRPcJNFcwk", "kind": "youtube" }
+        {
+          "label": "Play on itch.io",
+          "href": "https://miraclejester.itch.io/stink-bomb-revenge",
+          "kind": "itch"
+        },
+        {
+          "label": "Watch on YouTube",
+          "href": "https://www.youtube.com/watch?v=7QRPcJNFcwk",
+          "kind": "youtube"
+        }
       ],
       "whatILearned": "This was the first game jam experience. Working on-site with a team for three straight days under a hard deadline is a different discipline from solo or remote development. Communication is king, integration problems surface faster, and shipping something coherent requires constant alignment. The experience established the fundamentals of jam-paced teamwork that I carried into every subsequent jam.",
       "featured": true,
-      "order": 12
+      "order": 12,
+      "track": "game"
+    },
+    {
+      "id": "so-club",
+      "kind": "project",
+      "track": "web",
+      "title": "So Club",
+      "role": "Sole Developer",
+      "tagline": "A media club app for organizing what a group watches, reads, and plays together.",
+      "summary": "Full-stack Next.js app for running media clubs: role-based groups, invite links, TMDB-powered search, and a shared backlog. Built solo and deployed to production.",
+      "description": [
+        "So Club is a book club for every kind of media. Groups sign up, invite friends with a link, search for titles, and build a shared backlog they work through together. Movies are the first supported medium; books and games are planned against the same abstraction.",
+        "The whole stack is mine: Next.js App Router with server-side data fetching, Prisma over PostgreSQL on Supabase, Auth.js for database-backed sessions, and shadcn/ui on TailwindCSS for the interface. It runs in production on Vercel at so-club.com."
+      ],
+      "genre": "Full-Stack Web App",
+      "engineFamily": "web",
+      "status": "in-development",
+      "statusLabel": "In Development",
+      "dateLabel": "August 2026",
+      "sortDate": "2026-08",
+      "year": 2026,
+      "platforms": [
+        "Web"
+      ],
+      "techStack": [
+        "Next.js",
+        "TypeScript",
+        "React",
+        "Prisma",
+        "PostgreSQL",
+        "Auth.js",
+        "TailwindCSS",
+        "shadcn/ui",
+        "Vitest",
+        "Vercel"
+      ],
+      "highlights": [
+        "Pluggable media providers behind a MediaProvider interface (search + getByExternalId) returning a NormalizedMediaItem, so books and games can drop in beside TMDB without touching the group or backlog code",
+        "Normalized snapshots of each item are written to the database once it is added to a group, cutting repeat calls out to external APIs",
+        "Role-based authorization guards on every group-scoped page and server action: unauthorized requests redirect to sign-in, and non-members hitting a group URL directly get a 404 rather than a hint that the group exists",
+        "Three sign-in paths on one page: GitHub OAuth, Google OAuth, and passwordless email magic links via Resend, all on database-backed Auth.js sessions",
+        "Docker Compose Postgres plus a seed script that prints a ready-made invite link, so a fresh clone lands in a populated club"
+      ],
+      "features": [
+        "Groups with owner, admin, and member roles gating every action",
+        "Shareable invite links generated by group owners",
+        "Server-side movie search powered by the TMDB API",
+        "Shared group backlog that records which member added each title"
+      ],
+      "jam": null,
+      "team": {
+        "composition": "Solo",
+        "credits": [
+          {
+            "name": "Jose Montenegro",
+            "role": "Sole Developer",
+            "url": null
+          }
+        ]
+      },
+      "media": {
+        "hero": {
+          "src": "/media/projects/so-club/hero.webp",
+          "alt": "So Club: landing page"
+        },
+        "screenshots": [
+          {
+            "src": "/media/projects/so-club/s1.webp",
+            "alt": "So Club: sign-in with GitHub, Google, or an email magic link"
+          }
+        ],
+        "videos": []
+      },
+      "links": [
+        {
+          "label": "Live demo",
+          "href": "https://so-club.com",
+          "kind": "demo"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/miraclejester/so-club",
+          "kind": "github"
+        }
+      ],
+      "whatILearned": "The interesting design problem was making the app generic over media types without over-abstracting it before a second provider existed. Putting a narrow MediaProvider interface in front of TMDB, and normalizing everything to a shared shape with a per-medium metadata field, keeps the group and backlog layers unaware of where a title came from.\n\nThe authorization work was the other half. Instead of scattering permission checks, every group-scoped page and server action runs the same role guard, and it deliberately distinguishes needing to sign in from the resource not existing for you, so a private group's existence never leaks through the response.",
+      "featured": true,
+      "order": 13
+    },
+    {
+      "id": "movie-watchlist",
+      "kind": "project",
+      "track": "web",
+      "title": "Movie Watchlist",
+      "role": "Sole Developer",
+      "tagline": "Search a movie database and keep a personal watchlist that persists in the browser.",
+      "summary": "Vanilla JavaScript app that searches TMDB and stores a personal watchlist in local storage. No framework, no backend.",
+      "description": [
+        "A two-page app for finding films and saving them for later. Search hits the TMDB API and renders results with poster, runtime, genres, rating, and synopsis; one click moves a title onto the watchlist page, where it can be removed again.",
+        "Built with no framework and no backend: plain JavaScript, HTML, and CSS, with the watchlist held in browser local storage so it survives a reload."
+      ],
+      "genre": "Frontend Web App",
+      "engineFamily": "web",
+      "status": "released",
+      "statusLabel": "Released",
+      "dateLabel": "July 2026",
+      "sortDate": "2026-07",
+      "year": 2026,
+      "platforms": [
+        "Web"
+      ],
+      "techStack": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "TMDB API"
+      ],
+      "highlights": [
+        "TMDB search with results rendered from the API response: poster, runtime, genre list, rating, and synopsis",
+        "Watchlist persisted to browser local storage and shared between the search and watchlist pages with no backend",
+        "Written without a framework, so DOM rendering and state handling are done directly"
+      ],
+      "features": [
+        "Movie search against the TMDB database",
+        "Add and remove titles from a personal watchlist",
+        "Watchlist survives page reloads via local storage"
+      ],
+      "jam": null,
+      "team": {
+        "composition": "Solo",
+        "credits": [
+          {
+            "name": "Jose Montenegro",
+            "role": "Sole Developer",
+            "url": null
+          }
+        ]
+      },
+      "media": {
+        "hero": {
+          "src": "/media/projects/movie-watchlist/hero.webp",
+          "alt": "Movie Watchlist: search results for a query"
+        },
+        "screenshots": [
+          {
+            "src": "/media/projects/movie-watchlist/s1.webp",
+            "alt": "Movie Watchlist: saved titles on the watchlist page"
+          }
+        ],
+        "videos": []
+      },
+      "links": [
+        {
+          "label": "Live demo",
+          "href": "https://miraclejester.github.io/movie-watchlist/",
+          "kind": "demo"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/miraclejester/movie-watchlist",
+          "kind": "github"
+        }
+      ],
+      "whatILearned": "Building this without a framework was the point. Handling fetch, rendering, and local-storage state by hand makes it obvious what React and friends are actually doing for you, and it keeps the whole app small enough to serve as static files from GitHub Pages.",
+      "featured": true,
+      "order": 14
+    },
+    {
+      "id": "color-scheme-generator",
+      "kind": "project",
+      "track": "web",
+      "title": "Color Scheme Generator",
+      "role": "Sole Developer",
+      "tagline": "Pick a seed color and a harmony rule, get a five-swatch palette back with its hex codes.",
+      "summary": "React and TypeScript practice project that generates color schemes from The Color API, with eight harmony modes and the hex codes shown for every swatch.",
+      "description": [
+        "A small tool for generating palettes: choose a base color, choose one of eight harmony rules (monochrome, analogic, complement, triad, quad, and variants), and the app requests a matching five-color scheme from The Color API and renders it as full-height swatches with their hex codes.",
+        "Written as a React and TypeScript practice project on Vite, deliberately kept to a single focused interaction."
+      ],
+      "genre": "Frontend Web App",
+      "engineFamily": "web",
+      "status": "released",
+      "statusLabel": "Released",
+      "dateLabel": "July 2026",
+      "sortDate": "2026-07",
+      "year": 2026,
+      "platforms": [
+        "Web"
+      ],
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "The Color API"
+      ],
+      "highlights": [
+        "Eight harmony modes driven by The Color API scheme endpoint, from a single seed color and a mode selection",
+        "Typed API response handling in TypeScript, with the rendered swatches derived directly from the fetched scheme",
+        "Built on Vite and deployed as a static bundle to GitHub Pages"
+      ],
+      "features": [
+        "Native color picker for the seed color",
+        "Eight scheme modes: monochrome, monochrome dark and light, analogic, complement, analogic-complement, triad, and quad",
+        "Five-swatch output with hex codes shown under each color"
+      ],
+      "jam": null,
+      "team": {
+        "composition": "Solo",
+        "credits": [
+          {
+            "name": "Jose Montenegro",
+            "role": "Sole Developer",
+            "url": null
+          }
+        ]
+      },
+      "media": {
+        "hero": {
+          "src": "/media/projects/color-scheme-generator/hero.webp",
+          "alt": "Color Scheme Generator: an analogic scheme generated from a blue seed color"
+        },
+        "screenshots": [
+          {
+            "src": "/media/projects/color-scheme-generator/s1.webp",
+            "alt": "Color Scheme Generator: a monochrome scheme with hex codes"
+          }
+        ],
+        "videos": []
+      },
+      "links": [
+        {
+          "label": "Live demo",
+          "href": "https://miraclejester.github.io/color-scheme-generator/",
+          "kind": "demo"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/miraclejester/color-scheme-generator",
+          "kind": "github"
+        }
+      ],
+      "whatILearned": "A deliberately small React project to get the fundamentals clean: typing an external API response properly, keeping the fetched scheme as the single source of truth for what gets rendered, and shipping a Vite build to static hosting.",
+      "featured": true,
+      "order": 15
+    }
+  ],
+  "tracks": [
+    {
+      "id": "web",
+      "label": "Web",
+      "blurb": "Production frontend at millions-of-users scale, plus full-stack apps built end to end.",
+      "stack": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "PixiJS"
+      ],
+      "sections": {
+        "experience": {
+          "title": "Professional Experience",
+          "blurb": "Six years of live-service web engineering on an application used by millions of students."
+        },
+        "projects": {
+          "title": "Web Projects",
+          "blurb": "Full-stack and frontend apps built on my own time to explore a stack end to end."
+        }
+      }
+    },
+    {
+      "id": "game",
+      "label": "Games",
+      "blurb": "Shipped titles, jam entries, and studio work across Godot and Unity.",
+      "stack": [
+        "Godot 4",
+        "Unity",
+        "C#",
+        "GDScript"
+      ],
+      "sections": {
+        "experience": {
+          "title": "Professional Experience",
+          "blurb": "Studio and contract work on published games and educational titles."
+        },
+        "projects": {
+          "title": "Game Projects",
+          "blurb": "Personal games and jam entries: built to explore systems, sharpen craft, and ship something real."
+        }
+      }
     }
   ]
 }
