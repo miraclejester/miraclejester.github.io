@@ -2162,12 +2162,12 @@
       },
       "media": {
         "hero": {
-          "src": "/media/projects/pixijs-demo/hero.webp",
+          "src": "/media/projects/pixijs-demo/s1.png",
           "alt": "PixiJS Demo: the main menu with the three experiences"
         },
         "screenshots": [
           {
-            "src": "/media/projects/pixijs-demo/s1.webp",
+            "src": "/media/projects/pixijs-demo/s1.png",
             "alt": "Ace of Shadows: cards animating from the deck into four stacks"
           },
           {
