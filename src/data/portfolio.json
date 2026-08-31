@@ -2107,6 +2107,95 @@
       "whatILearned": "A deliberately small React project to get the fundamentals clean: typing an external API response properly, keeping the fetched scheme as the single source of truth for what gets rendered, and shipping a Vite build to static hosting.",
       "featured": true,
       "order": 15
+    },
+    {
+      "id": "pixijs-demo",
+      "kind": "project",
+      "track": "web",
+      "title": "PixiJS Demo",
+      "role": "Sole Developer",
+      "tagline": "Three interactive PixiJS experiences behind one menu: a card deck, a dialogue scene, and a particle flame.",
+      "summary": "A TypeScript and PixiJS demo built as a single responsive app, with a scene manager routing between a 144-card animation, a data-driven dialogue system, and a custom particle effect.",
+      "description": [
+        "A collection of three tech demos sharing one shell. An application class sets up a responsive 1280x720 stage plus scene, asset, and audio managers, then hands off to a loader scene that resolves internal assets first and the external ones they reference (dialogue avatars and emoji) second, before dropping into a main menu.",
+        "Ace of Shadows animates a 144-card deck sprite by sprite into four stacks, revealing randomised faces as each card moves. Magic Words renders a conversation from fetched configuration data, mixing text and inline emoji images in the dialogue box. Phoenix Flame runs a particle system written generically enough to be extended with custom modifiers, used here for a fire effect.",
+        "Written in TypeScript on PixiJS, bundled with Next.js, and deployed as a static build to GitHub Pages."
+      ],
+      "genre": "Interactive Web Demo",
+      "engineFamily": "web",
+      "status": "released",
+      "statusLabel": "Released",
+      "dateLabel": "March 2026",
+      "sortDate": "2026-03",
+      "year": 2026,
+      "platforms": [
+        "Web"
+      ],
+      "techStack": [
+        "PixiJS",
+        "TypeScript",
+        "Next.js",
+        "Git"
+      ],
+      "highlights": [
+        "Scene manager and asset manager built on top of PixiJS, with a two-stage loader that resolves external assets discovered inside the internal data",
+        "144-card deck animated as individual sprites into four stacks, with card faces generated from a texture atlas",
+        "Particle system written generically — textures, lifecycle, and movement — and extensible through custom particle modifiers",
+        "Responsive at a fixed 1280x720 base resolution, bundled with Next.js and served as a static site from GitHub Pages"
+      ],
+      "features": [
+        "Main menu that switches seamlessly between the three experiences",
+        "Card stack animations with dynamically generated card faces using a texture atlas",
+        "Dialogue system driven by external data, mixing text and inline emoji images",
+        "Extensible particle system used for the phoenix flame effect"
+      ],
+      "jam": null,
+      "team": {
+        "composition": "Solo",
+        "credits": [
+          {
+            "name": "Jose Montenegro",
+            "role": "Sole Developer",
+            "url": null
+          }
+        ]
+      },
+      "media": {
+        "hero": {
+          "src": "/media/projects/pixijs-demo/hero.webp",
+          "alt": "PixiJS Demo: the main menu with the three experiences"
+        },
+        "screenshots": [
+          {
+            "src": "/media/projects/pixijs-demo/s1.webp",
+            "alt": "Ace of Shadows: cards animating from the deck into four stacks"
+          },
+          {
+            "src": "/media/projects/pixijs-demo/s2.webp",
+            "alt": "Magic Words: a dialogue box mixing text and inline emoji images"
+          },
+          {
+            "src": "/media/projects/pixijs-demo/s3.webp",
+            "alt": "Phoenix Flame: the particle fire effect held between two hands"
+          }
+        ],
+        "videos": []
+      },
+      "links": [
+        {
+          "label": "Live demo",
+          "href": "https://miraclejester.github.io/pixijs-demo/",
+          "kind": "demo"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/miraclejester/pixijs-demo",
+          "kind": "github"
+        }
+      ],
+      "whatILearned": "A chance to refresh web development in a gamedev context. Building the scene management, texture atlases, tweens, particle system, and bundling from scratch on a fast timeline made clear how much of a game engine you end up re-implementing when the renderer is all you start with.",
+      "featured": true,
+      "order": 16
     }
   ],
   "tracks": [
